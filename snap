@@ -1,0 +1,15 @@
+Chain PREROUTING (policy ACCEPT 25 packets, 4563 bytes)
+ pkts bytes target     prot opt in     out     source               destination
+    1   200 DNAT       udp  --  eth0   *       0.0.0.0/0            0.0.0.0/0            udp dpts:50000:51000 to:10.1.1.1
+    0     0 DNAT       udp  --  eth0:0 *       0.0.0.0/0            0.0.0.0/0            udp dpts:50000:51000 to:10.1.1.1
+    0     0 MINIUPNPD  all  --  eth0:0 *       0.0.0.0/0            0.0.0.0/0
+Chain MINIUPNPD (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination
+    0     0 ACCEPT     udp  --  eth0   *       0.0.0.0/0            0.0.0.0/0            udp dpts:50000:51000
+    0     0 ACCEPT     udp  --  eth0:0 *       0.0.0.0/0            0.0.0.0/0            udp dpts:50000:51000
+    0     0 MINIUPNPD  all  --  eth0:0 !eth0:0  0.0.0.0/0            0.0.0.0/0
+Chain MINIUPNPD (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+

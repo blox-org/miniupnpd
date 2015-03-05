@@ -1,0 +1,4 @@
+#/bin/bash
+
+cp config_h config.h
+make -f Makefile.linux

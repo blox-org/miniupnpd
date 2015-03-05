@@ -1,0 +1,1036 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADD_KERNEL	ipf/ipfrdr.c	17;"	d	file:
+ADD_KERNEL	ipfw/ipfwrdr.c	23;"	d	file:
+ALLOBJS	Makefile	/^ALLOBJS = $(STDOBJS) $(MISCOBJS)$/;"	m
+ARCH	netfilter/Makefile	/^ARCH := $(shell uname -m | grep -q "x86_64" && echo 64)$/;"	m
+ARRAY_SIZE	netfilter/iptcrdr.c	29;"	d	file:
+AddAnyPortMapping	upnpsoap.c	/^AddAnyPortMapping(struct upnphttp * h, const char * action)$/;"	f	file:
+AddAnyPortMappingArgs	upnpdescgen.c	/^static const struct argument AddAnyPortMappingArgs[] =$/;"	v	typeref:struct:argument	file:
+AddMulticastMembership	minissdp.c	/^AddMulticastMembership(int s, in_addr_t ifaddr)$/;"	f	file:
+AddMulticastMembershipIPv6	minissdp.c	/^AddMulticastMembershipIPv6(int s)$/;"	f	file:
+AddPinhole	upnpsoap.c	/^AddPinhole(struct upnphttp * h, const char * action)$/;"	f	file:
+AddPinholeArgs	upnpdescgen.c	/^static const struct argument AddPinholeArgs[] =$/;"	v	typeref:struct:argument	file:
+AddPortMapping	upnpsoap.c	/^AddPortMapping(struct upnphttp * h, const char * action)$/;"	f	file:
+AddPortMappingArgs	upnpdescgen.c	/^static const struct argument AddPortMappingArgs[] =$/;"	v	typeref:struct:argument	file:
+BSDOBJS	Makefile	/^BSDOBJS = bsd\/getifstats.o bsd\/ifacewatcher.o bsd\/getroute.o$/;"	m
+BUILD_BUG_ON_ZERO	netfilter/iptcrdr.c	26;"	d	file:
+BuildHeader_upnphttp	upnphttp.c	/^BuildHeader_upnphttp(struct upnphttp * h, int respcode,$/;"	f
+BuildResp2_upnphttp	upnphttp.c	/^BuildResp2_upnphttp(struct upnphttp * h, int respcode,$/;"	f
+BuildResp_upnphttp	upnphttp.c	/^BuildResp_upnphttp(struct upnphttp * h,$/;"	f
+BuildSendAndCloseSoapResp	upnpsoap.c	/^BuildSendAndCloseSoapResp(struct upnphttp * h,$/;"	f	file:
+CC	Makefile	/^CC ?= gcc$/;"	m
+CC	ipf/Makefile	/^CC=gcc$/;"	m
+CC	ipfw/Makefile	/^CC=gcc$/;"	m
+CC	netfilter/Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS ?= -pipe -Os$/;"	m
+CFLAGS	bsd/Makefile	/^CFLAGS = -Wall -g$/;"	m
+CFLAGS	ipf/Makefile	/^CFLAGS=-Wall -g -I.$/;"	m
+CFLAGS	ipfw/Makefile	/^CFLAGS=-Wall -g -I.$/;"	m
+CFLAGS	mac/Makefile	/^CFLAGS = -Wall -g$/;"	m
+CFLAGS	netfilter/Makefile	/^CFLAGS := $(CFLAGS) -DIPTABLES_143$/;"	m
+CFLAGS	netfilter/Makefile	/^CFLAGS := $(CFLAGS) -I$(IPTABLESPATH)\/include\/$/;"	m
+CFLAGS	netfilter/Makefile	/^CFLAGS?=-Wall -g -D_GNU_SOURCE -DDEBUG -Wstrict-prototypes -Wdeclaration-after-statement -ansi -DENABLE_6FC_SERVICE$/;"	m
+CFLAGS	pf/Makefile	/^CFLAGS = -Wall -g -ansi -DTEST$/;"	m
+CHECKCLIENTIPMASK	upnpglobalvars.h	42;"	d
+CIRCLEQ_EMPTY	bsdqueue.h	440;"	d
+CIRCLEQ_END	bsdqueue.h	437;"	d
+CIRCLEQ_ENTRY	bsdqueue.h	426;"	d
+CIRCLEQ_FIRST	bsdqueue.h	435;"	d
+CIRCLEQ_FOREACH	bsdqueue.h	443;"	d
+CIRCLEQ_FOREACH_REVERSE	bsdqueue.h	448;"	d
+CIRCLEQ_HEAD	bsdqueue.h	417;"	d
+CIRCLEQ_HEAD_INITIALIZER	bsdqueue.h	423;"	d
+CIRCLEQ_INIT	bsdqueue.h	456;"	d
+CIRCLEQ_INSERT_AFTER	bsdqueue.h	461;"	d
+CIRCLEQ_INSERT_BEFORE	bsdqueue.h	471;"	d
+CIRCLEQ_INSERT_HEAD	bsdqueue.h	481;"	d
+CIRCLEQ_INSERT_TAIL	bsdqueue.h	491;"	d
+CIRCLEQ_LAST	bsdqueue.h	436;"	d
+CIRCLEQ_NEXT	bsdqueue.h	438;"	d
+CIRCLEQ_PREV	bsdqueue.h	439;"	d
+CIRCLEQ_REMOVE	bsdqueue.h	501;"	d
+CIRCLEQ_REPLACE	bsdqueue.h	516;"	d
+CLEARFLAG	upnpglobalvars.h	53;"	d
+CODELENGTH	codelength.h	24;"	d
+CODELENGTH_H_INCLUDED	codelength.h	8;"	d
+COMMONRDR_H_INCLUDED	commonrdr.h	8;"	d
+CONFIG_H_INCLUDED	config.h	7;"	d
+CONNECTIONSTATUS_MAGICALVALUE	upnpdescgen.c	26;"	d	file:
+CheckPinholeWorking	upnpsoap.c	/^CheckPinholeWorking(struct upnphttp * h, const char * action)$/;"	f	file:
+CheckPinholeWorkingArgs	upnpdescgen.c	/^static const struct argument CheckPinholeWorkingArgs[] =$/;"	v	typeref:struct:argument	file:
+CheckStatus	upnpsoap.c	/^CheckStatus(struct upnphttp * h)$/;"	f	file:
+ClearNameValueList	upnpreplyparse.c	/^ClearNameValueList(struct NameValueParserData * pdata)$/;"	f
+CloseSocket_upnphttp	upnphttp.c	/^CloseSocket_upnphttp(struct upnphttp * h)$/;"	f
+ConfNATPMPAuth	natpmp.c	/^int ConfNATPMPAuth(const char *secret) {$/;"	f
+ConfTransDspAddress	natpmp.c	/^int ConfTransDspAddress(const char *address) {$/;"	f
+DAEMONIZE_H_INCLUDED	daemonize.h	9;"	d
+DECODELENGTH	codelength.h	13;"	d
+DECODELENGTH_CHECKLIMIT	codelength.h	17;"	d
+DEFAULTCONNECTIONSERVICE_MAGICALVALUE	upnpdescgen.c	32;"	d	file:
+DEFAULT_CONFIG	miniupnpd.c	84;"	d	file:
+DEVICE_TYPE_IGD	upnpurns.h	15;"	d
+DEVICE_TYPE_IGD	upnpurns.h	22;"	d
+DEVICE_TYPE_WAN	upnpurns.h	16;"	d
+DEVICE_TYPE_WAN	upnpurns.h	23;"	d
+DEVICE_TYPE_WANC	upnpurns.h	17;"	d
+DEVICE_TYPE_WANC	upnpurns.h	24;"	d
+DPActions	upnpdescgen.c	/^static const struct action DPActions[] =$/;"	v	typeref:struct:action	file:
+DPVars	upnpdescgen.c	/^static const struct stateVar DPVars[] =$/;"	v	typeref:struct:stateVar	file:
+DP_CONTROLURL	miniupnpdpath.h	44;"	d
+DP_EVENTURL	miniupnpdpath.h	45;"	d
+DP_PATH	miniupnpdpath.h	43;"	d
+DUMMY_PATH	miniupnpdpath.h	18;"	d
+DeletePinhole	upnpsoap.c	/^DeletePinhole(struct upnphttp * h, const char * action)$/;"	f	file:
+DeletePinholeArgs	upnpdescgen.c	/^static const struct argument DeletePinholeArgs[] =$/;"	v	typeref:struct:argument	file:
+DeletePortMapping	upnpsoap.c	/^DeletePortMapping(struct upnphttp * h, const char * action)$/;"	f	file:
+DeletePortMappingArgs	upnpdescgen.c	/^static const struct argument DeletePortMappingArgs[] =$/;"	v	typeref:struct:argument	file:
+DeletePortMappingRange	upnpsoap.c	/^DeletePortMappingRange(struct upnphttp * h, const char * action)$/;"	f	file:
+DeletePortMappingRangeArgs	upnpdescgen.c	/^static const struct argument DeletePortMappingRangeArgs[] =$/;"	v	typeref:struct:argument	file:
+Delete_upnphttp	upnphttp.c	/^Delete_upnphttp(struct upnphttp * h)$/;"	f
+DisplayNameValueList	upnpreplyparse.c	/^DisplayNameValueList(char * buffer, int bufsize)$/;"	f
+E6FC	upnpevents.h	/^ E6FC,$/;"	e	enum:subscriber_service_enum
+EConnecting	upnpevents.c	/^	       EConnecting,$/;"	e	enum:upnp_event_notify::__anon10	file:
+ECreated	upnpevents.c	/^    enum { ECreated=1,$/;"	e	enum:upnp_event_notify::__anon10	file:
+EDP	upnpevents.h	/^ EDP,$/;"	e	enum:subscriber_service_enum
+EError	upnpevents.c	/^	       EError } state;$/;"	e	enum:upnp_event_notify::__anon10	file:
+EFinished	upnpevents.c	/^	       EFinished,$/;"	e	enum:upnp_event_notify::__anon10	file:
+EGet	upnphttp.h	/^	EGet,$/;"	e	enum:httpCommands
+EL3F	upnpevents.h	/^ EL3F,$/;"	e	enum:subscriber_service_enum
+ENABLENATPMPMASK	upnpglobalvars.h	40;"	d
+ENABLEUPNPMASK	upnpglobalvars.h	45;"	d
+ENABLE_6FC_SERVICE	config.h	76;"	d
+ENABLE_DP_SERVICE	config.h	72;"	d
+ENABLE_EVENTS	config.h	82;"	d
+ENABLE_L3F_SERVICE	config.h	60;"	d
+ENABLE_NATPMP	config.h	30;"	d
+EPost	upnphttp.h	/^	EPost,$/;"	e	enum:httpCommands
+ESending	upnpevents.c	/^	       ESending,$/;"	e	enum:upnp_event_notify::__anon10	file:
+ESendingAndClosing	upnphttp.h	/^	ESendingAndClosing,$/;"	e	enum:httpStates
+ESendingContinue	upnphttp.h	/^	ESendingContinue,$/;"	e	enum:httpStates
+ESubscribe	upnphttp.h	/^	ESubscribe,$/;"	e	enum:httpCommands
+EToDelete	upnphttp.h	/^	EToDelete = 100$/;"	e	enum:httpStates
+EUnSubscribe	upnphttp.h	/^	EUnSubscribe$/;"	e	enum:httpCommands
+EUnknown	upnphttp.h	/^	EUnknown = 0,$/;"	e	enum:httpCommands
+EWaitingForHttpContent	upnphttp.h	/^	EWaitingForHttpContent,$/;"	e	enum:httpStates
+EWaitingForHttpRequest	upnphttp.h	/^	EWaitingForHttpRequest = 0,$/;"	e	enum:httpStates
+EWaitingForResponse	upnpevents.c	/^	       EWaitingForResponse,$/;"	e	enum:upnp_event_notify::__anon10	file:
+EWanCFG	upnpevents.h	/^ EWanCFG = 1,$/;"	e	enum:subscriber_service_enum
+EWanIPC	upnpevents.h	/^ EWanIPC,$/;"	e	enum:subscriber_service_enum
+EXECUTABLES	Makefile	/^EXECUTABLES = miniupnpd testupnpdescgen testgetifstats \\$/;"	m
+EXECUTABLES	bsd/Makefile	/^EXECUTABLES = testgetifstats testifacewatcher$/;"	m
+EXECUTABLES	mac/Makefile	/^EXECUTABLES = testgetifstats$/;"	m
+EXECUTABLES	pf/Makefile	/^EXECUTABLES = testobsdrdr testpfpinhole$/;"	m
+EXTERNALIPADDRESS_MAGICALVALUE	upnpdescgen.c	31;"	d	file:
+ExecuteSoapAction	upnpsoap.c	/^ExecuteSoapAction(struct upnphttp * h, const char * action, int n)$/;"	f
+FIREWALLENABLED_MAGICALVALUE	upnpdescgen.c	27;"	d	file:
+FLAG_ALLOW_POST	upnphttp.h	101;"	d
+FLAG_ALLOW_SUB_UNSUB	upnphttp.h	102;"	d
+FLAG_CONTINUE	upnphttp.h	95;"	d
+FLAG_HTML	upnphttp.h	98;"	d
+FLAG_SID	upnphttp.h	92;"	d
+FLAG_TIMEOUT	upnphttp.h	90;"	d
+FRIENDLY_NAME_MAX_LEN	upnpglobalvars.h	68;"	d
+FWNAME	Makefile	/^FWNAME = ipf$/;"	m
+FWNAME	Makefile	/^FWNAME = ipfw$/;"	m
+FWNAME	Makefile	/^FWNAME = pf$/;"	m
+FillPublicAddressResponse	natpmp.c	/^static void FillPublicAddressResponse(unsigned char * resp, in_addr_t senderaddr)$/;"	f	file:
+ForceTermination	upnpsoap.c	/^ForceTermination(struct upnphttp * h, const char * action)$/;"	f	file:
+GETCONNSTATUS_H_INCLUDED	getconnstatus.h	9;"	d
+GETFLAG	upnpglobalvars.h	52;"	d
+GETIFADDR_H_INCLUDED	getifaddr.h	9;"	d
+GETIFSTATS_CACHING_DURATION	config.h	40;"	d
+GETIFSTATS_H_INCLUDED	getifstats.h	8;"	d
+GETROUTE_H_INCLUDED	getroute.h	9;"	d
+GetAuthPMPSession	natpmp.c	/^static struct pmp_auth_session* GetAuthPMPSession(struct sockaddr_in saddr, unsigned int time_stamp) {$/;"	f	file:
+GetCommonLinkProperties	upnpsoap.c	/^GetCommonLinkProperties(struct upnphttp * h, const char * action)$/;"	f	file:
+GetCommonLinkPropertiesArgs	upnpdescgen.c	/^static const struct argument GetCommonLinkPropertiesArgs[] =$/;"	v	typeref:struct:argument	file:
+GetConnectionTypeInfo	upnpsoap.c	/^GetConnectionTypeInfo(struct upnphttp * h, const char * action)$/;"	f	file:
+GetConnectionTypeInfoArgs	upnpdescgen.c	/^static const struct argument GetConnectionTypeInfoArgs[] =$/;"	v	typeref:struct:argument	file:
+GetDefaultConnectionService	upnpsoap.c	/^GetDefaultConnectionService(struct upnphttp * h, const char * action)$/;"	f	file:
+GetDefaultConnectionServiceArgs	upnpdescgen.c	/^static const struct argument GetDefaultConnectionServiceArgs[] =$/;"	v	typeref:struct:argument	file:
+GetExternalIPAddress	upnpsoap.c	/^GetExternalIPAddress(struct upnphttp * h, const char * action)$/;"	f	file:
+GetExternalIPAddressArgs	upnpdescgen.c	/^static const struct argument GetExternalIPAddressArgs[] =$/;"	v	typeref:struct:argument	file:
+GetFirewallStatus	upnpsoap.c	/^GetFirewallStatus(struct upnphttp * h, const char * action)$/;"	f	file:
+GetFirewallStatusArgs	upnpdescgen.c	/^static const struct argument GetFirewallStatusArgs[] =$/;"	v	typeref:struct:argument	file:
+GetGenericPortMappingEntry	upnpsoap.c	/^GetGenericPortMappingEntry(struct upnphttp * h, const char * action)$/;"	f	file:
+GetGenericPortMappingEntryArgs	upnpdescgen.c	/^static const struct argument GetGenericPortMappingEntryArgs[] =$/;"	v	typeref:struct:argument	file:
+GetListOfPortMappings	upnpsoap.c	/^GetListOfPortMappings(struct upnphttp * h, const char * action)$/;"	f	file:
+GetListOfPortMappingsArgs	upnpdescgen.c	/^static const struct argument GetListOfPortMappingsArgs[] =$/;"	v	typeref:struct:argument	file:
+GetNATRSIPStatus	upnpsoap.c	/^GetNATRSIPStatus(struct upnphttp * h, const char * action)$/;"	f	file:
+GetNATRSIPStatusArgs	upnpdescgen.c	/^static const struct argument GetNATRSIPStatusArgs[] =$/;"	v	typeref:struct:argument	file:
+GetOutboundPinholeTimeout	upnpsoap.c	/^GetOutboundPinholeTimeout(struct upnphttp * h, const char * action)$/;"	f	file:
+GetOutboundPinholeTimeoutArgs	upnpdescgen.c	/^static const struct argument GetOutboundPinholeTimeoutArgs[] =$/;"	v	typeref:struct:argument	file:
+GetPinholePackets	upnpsoap.c	/^GetPinholePackets(struct upnphttp * h, const char * action)$/;"	f	file:
+GetPinholePacketsArgs	upnpdescgen.c	/^static const struct argument GetPinholePacketsArgs[] =$/;"	v	typeref:struct:argument	file:
+GetSpecificPortMappingEntry	upnpsoap.c	/^GetSpecificPortMappingEntry(struct upnphttp * h, const char * action)$/;"	f	file:
+GetSpecificPortMappingEntryArgs	upnpdescgen.c	/^static const struct argument GetSpecificPortMappingEntryArgs[] =$/;"	v	typeref:struct:argument	file:
+GetStatusInfo	upnpsoap.c	/^GetStatusInfo(struct upnphttp * h, const char * action)$/;"	f	file:
+GetStatusInfoArgs	upnpdescgen.c	/^static const struct argument GetStatusInfoArgs[] =$/;"	v	typeref:struct:argument	file:
+GetTotalBytesReceived	upnpsoap.c	/^GetTotalBytesReceived(struct upnphttp * h, const char * action)$/;"	f	file:
+GetTotalBytesReceivedArgs	upnpdescgen.c	/^static const struct argument GetTotalBytesReceivedArgs[] =$/;"	v	typeref:struct:argument	file:
+GetTotalBytesSent	upnpsoap.c	/^GetTotalBytesSent(struct upnphttp * h, const char * action)$/;"	f	file:
+GetTotalBytesSentArgs	upnpdescgen.c	/^static const struct argument GetTotalBytesSentArgs[] =$/;"	v	typeref:struct:argument	file:
+GetTotalPacketsReceived	upnpsoap.c	/^GetTotalPacketsReceived(struct upnphttp * h, const char * action)$/;"	f	file:
+GetTotalPacketsReceivedArgs	upnpdescgen.c	/^static const struct argument GetTotalPacketsReceivedArgs[] =$/;"	v	typeref:struct:argument	file:
+GetTotalPacketsSent	upnpsoap.c	/^GetTotalPacketsSent(struct upnphttp * h, const char * action)$/;"	f	file:
+GetTotalPacketsSentArgs	upnpdescgen.c	/^static const struct argument GetTotalPacketsSentArgs[] =$/;"	v	typeref:struct:argument	file:
+GetValueFromNameValueList	upnpreplyparse.c	/^GetValueFromNameValueList(struct NameValueParserData * pdata,$/;"	f
+HttpVer	upnphttp.h	/^	char HttpVer[16];$/;"	m	struct:upnphttp
+IFACEWATCHER_H_INCLUDED	ifacewatcher.h	39;"	d
+IGD_VER	minissdp.c	388;"	d	file:
+IGD_VER	minissdp.c	391;"	d	file:
+INBOUNDPINHOLEALLOWED_MAGICALVALUE	upnpdescgen.c	28;"	d	file:
+INITHELPER	upnpdescgen.h	51;"	d
+INSTALL	Makefile	/^INSTALL = install$/;"	m
+INSTALLBINDIR	Makefile	/^INSTALLBINDIR = $(PREFIX)\/sbin$/;"	m
+INSTALLETCDIR	Makefile	/^INSTALLETCDIR = $(PREFIX)\/etc$/;"	m
+INSTALLMANDIR	Makefile	/^INSTALLMANDIR = \/usr\/share\/man$/;"	m
+IP6TC_HANDLE	netfilter/iptpinhole.c	25;"	d	file:
+IPFOBJS	Makefile	/^IPFOBJS = ipf\/ipfrdr.o$/;"	m
+IPFRDR_H_INCLUDED	ipf/ipfrdr.h	8;"	d
+IPFWAUX_H	ipfw/ipfwaux.h	10;"	d
+IPFWOBJS	Makefile	/^IPFWOBJS = ipfw\/ipfwrdr.o ipfw\/ipfwaux.o$/;"	m
+IPFWRDR_H_INCLUDED	ipfw/ipfwrdr.h	11;"	d
+IPTABLESVERSION	netfilter/Makefile	/^IPTABLESVERSION := $(shell grep "\\#define VERSION" $(IPTABLESPATH)\/config.h | tr -d \\" |cut -d" " -f3 )$/;"	m
+IPTABLESVERSION1	netfilter/Makefile	/^IPTABLESVERSION1 := $(shell echo $(IPTABLESVERSION) | cut -d. -f1 )$/;"	m
+IPTABLESVERSION2	netfilter/Makefile	/^IPTABLESVERSION2 := $(shell echo $(IPTABLESVERSION) | cut -d. -f2 )$/;"	m
+IPTABLESVERSION3	netfilter/Makefile	/^IPTABLESVERSION3 := $(shell echo $(IPTABLESVERSION) | cut -d. -f3 )$/;"	m
+IPTCRDR_H_INCLUDED	netfilter/iptcrdr.h	9;"	d
+IPTC_HANDLE	netfilter/iptcrdr.c	39;"	d	file:
+IPTC_HANDLE	netfilter/iptcrdr.c	51;"	d	file:
+IPTPINHOLE_H_INCLUDED	netfilter/iptpinhole.h	8;"	d
+IPT_ALIGN	netfilter/iptcrdr.c	56;"	d	file:
+IPV6_ADD_MEMBERSHIP	minissdp.c	73;"	d	file:
+IP_FW_BASE	ipfw/ipfwaux.h	16;"	d
+IP_FW_INIT	ipfw/ipfwaux.h	17;"	d
+IP_FW_TERM	ipfw/ipfwaux.h	18;"	d
+IP_NAT_RANGE_MAP_IPS	netfilter/tiny_nf_nat.h	9;"	d
+IP_NAT_RANGE_PERSISTENT	netfilter/tiny_nf_nat.h	12;"	d
+IP_NAT_RANGE_PROTO_RANDOM	netfilter/tiny_nf_nat.h	11;"	d
+IP_NAT_RANGE_PROTO_SPECIFIED	netfilter/tiny_nf_nat.h	10;"	d
+IPv6FCActions	upnpdescgen.c	/^static const struct action IPv6FCActions[] =$/;"	v	typeref:struct:action	file:
+IPv6FCVars	upnpdescgen.c	/^static const struct stateVar IPv6FCVars[] =$/;"	v	typeref:struct:stateVar	file:
+IS_WHITE_SPACE	minixml.h	13;"	d
+KERNEL	ipf/ipfrdr.c	19;"	d	file:
+KERNEL	ipf/ipfrdr.c	27;"	d	file:
+KERNEL	ipfw/ipfwrdr.c	25;"	d	file:
+KERNEL	ipfw/ipfwrdr.c	33;"	d	file:
+L3FActions	upnpdescgen.c	/^static const struct action L3FActions[] =$/;"	v	typeref:struct:action	file:
+L3FVars	upnpdescgen.c	/^static const struct stateVar L3FVars[] =$/;"	v	typeref:struct:stateVar	file:
+L3F_CONTROLURL	miniupnpdpath.h	31;"	d
+L3F_EVENTURL	miniupnpdpath.h	32;"	d
+L3F_PATH	miniupnpdpath.h	30;"	d
+LDFLAGS	netfilter/Makefile	/^LDFLAGS := $(LDFLAFGS) -L$(IPTABLESPATH)\/libiptc\/$/;"	m
+LIBS	Makefile	/^LIBS = -lkvm$/;"	m
+LIBS	Makefile	/^LIBS =$/;"	m
+LIBS	netfilter/Makefile	/^LIBS = $(IPTABLESPATH)\/libiptc\/.libs\/libip4tc.o$/;"	m
+LIBS	netfilter/Makefile	/^LIBS = $(IPTABLESPATH)\/libiptc\/libiptc.a$/;"	m
+LIBS	netfilter/Makefile	/^LIBS = -lip6tc$/;"	m
+LIBS	netfilter/Makefile	/^LIBS = -liptc \/usr\/lib$(ARCH)\/libiptc.a$/;"	m
+LIBS	netfilter/Makefile	/^LIBS = -liptc$/;"	m
+LIST_EMPTY	bsdqueue.h	190;"	d
+LIST_END	bsdqueue.h	189;"	d
+LIST_ENTRY	bsdqueue.h	179;"	d
+LIST_FIRST	bsdqueue.h	188;"	d
+LIST_FOREACH	bsdqueue.h	193;"	d
+LIST_HEAD	bsdqueue.h	171;"	d
+LIST_HEAD_INITIALIZER	bsdqueue.h	176;"	d
+LIST_INIT	bsdqueue.h	201;"	d
+LIST_INSERT_AFTER	bsdqueue.h	205;"	d
+LIST_INSERT_BEFORE	bsdqueue.h	213;"	d
+LIST_INSERT_HEAD	bsdqueue.h	220;"	d
+LIST_NEXT	bsdqueue.h	191;"	d
+LIST_POISON2	netfilter/iptcrdr.c	30;"	d	file:
+LIST_REMOVE	bsdqueue.h	227;"	d
+LIST_REPLACE	bsdqueue.h	236;"	d
+LL_SSDP_MCAST_ADDR	minissdp.c	32;"	d	file:
+LOGPACKETSMASK	upnpglobalvars.h	37;"	d
+LOG_MINIUPNPD	config.h	23;"	d
+LOG_PERROR	testgetifaddr.c	14;"	d	file:
+LOG_PERROR	testgetifstats.c	16;"	d	file:
+LOG_PERROR	testgetroute.c	22;"	d	file:
+MACOBJS	Makefile	/^MACOBJS = mac\/getifstats.o bsd\/ifacewatcher.o bsd\/getroute.o$/;"	m
+MACROS_H_INCLUDED	macros.h	9;"	d
+MAX_AUTH_SESSIONS	natpmp.c	33;"	d	file:
+MINISSDP_H_INCLUDED	minissdp.h	8;"	d
+MINIUPNPDCTLOBJS	Makefile	/^MINIUPNPDCTLOBJS = miniupnpdctl.o$/;"	m
+MINIUPNPDPATH_H_INCLUDED	miniupnpdpath.h	9;"	d
+MINIUPNPDTYPES_H_INCLUDED	miniupnpdtypes.h	8;"	d
+MINIUPNPD_SERVER_STRING	upnphttp.h	25;"	d
+MINIUPNPD_VERSION	config.h	11;"	d
+MINIXML_H_INCLUDED	minixml.h	12;"	d
+MISCOBJS	Makefile	/^MISCOBJS = upnpreplyparse.o minixml.o$/;"	m
+MODELNUMBER_MAX_LEN	upnpglobalvars.h	62;"	d
+MV	Makefile	/^MV = mv$/;"	m
+NATPMPSecret	natpmp.c	/^static const char *NATPMPSecret = NULL;$/;"	v	file:
+NATPMP_H_INCLUDED	natpmp.h	7;"	d
+NATPMP_NOTIF_ADDR	natpmp.h	19;"	d
+NATPMP_NOTIF_PORT	natpmp.h	18;"	d
+NATPMP_PORT	natpmp.h	17;"	d
+NSERVICES	upnpdescgen.c	182;"	d	file:
+NSERVICES1	upnpdescgen.c	168;"	d	file:
+NSERVICES2	upnpdescgen.c	173;"	d	file:
+NSERVICES3	upnpdescgen.c	178;"	d	file:
+NameValue	upnpreplyparse.h	/^struct NameValue {$/;"	s
+NameValueParserData	upnpreplyparse.h	/^struct NameValueParserData {$/;"	s
+NameValueParserGetData	upnpreplyparse.c	/^NameValueParserGetData(void * d, const char * datas, int l)$/;"	f	file:
+NameValueParserStartElt	upnpreplyparse.c	/^NameValueParserStartElt(void * d, const char * name, int l)$/;"	f	file:
+New_upnphttp	upnphttp.c	/^New_upnphttp(int s)$/;"	f
+OBSDRDR_H_INCLUDED	pf/obsdrdr.h	9;"	d
+OPTIONS_H_INCLUDED	options.h	10;"	d
+OS_NAME	config.h	18;"	d
+OS_URL	config.h	20;"	d
+OS_VERSION	config.h	19;"	d
+OpenAndConfCtlUnixSocket	miniupnpd.c	/^OpenAndConfCtlUnixSocket(const char * path)$/;"	f	file:
+OpenAndConfHTTPSocket	miniupnpd.c	/^OpenAndConfHTTPSocket(unsigned short port)$/;"	f	file:
+OpenAndConfInterfaceWatchSocket	bsd/ifacewatcher.c	/^OpenAndConfInterfaceWatchSocket(void)$/;"	f
+OpenAndConfInterfaceWatchSocket	linux/ifacewatcher.c	/^OpenAndConfInterfaceWatchSocket(void)$/;"	f
+OpenAndConfNATPMPSocket	natpmp.c	/^int OpenAndConfNATPMPSocket(in_addr_t addr, int port)$/;"	f
+OpenAndConfNATPMPSockets	natpmp.c	/^int OpenAndConfNATPMPSockets(int * sockets, int port)$/;"	f
+OpenAndConfNFqueue	miniupnpd.c	/^OpenAndConfNFqueue(){$/;"	f	file:
+OpenAndConfSSDPNotifySocket	minissdp.c	/^OpenAndConfSSDPNotifySocket(in_addr_t addr)$/;"	f	file:
+OpenAndConfSSDPNotifySocketIPv6	minissdp.c	/^OpenAndConfSSDPNotifySocketIPv6(unsigned int if_index)$/;"	f	file:
+OpenAndConfSSDPNotifySockets	minissdp.c	/^OpenAndConfSSDPNotifySockets(int * sockets)$/;"	f
+OpenAndConfSSDPReceiveSocket	minissdp.c	/^OpenAndConfSSDPReceiveSocket(int ipv6)$/;"	f
+PFNOQUICKRULESMASK	upnpglobalvars.h	48;"	d
+PFOBJS	Makefile	/^PFOBJS = pf\/obsdrdr.o pf\/pfpinhole.o$/;"	m
+PFPINHOLE_H_INCLUDED	pf/pfpinhole.h	9;"	d
+PINEHOLE_LABEL_FORMAT	pf/pfpinhole.c	48;"	d	file:
+PORTMAPPINGNUMBEROFENTRIES_MAGICALVALUE	upnpdescgen.c	30;"	d	file:
+PRESENTATIONURL_MAX_LEN	upnpglobalvars.h	65;"	d
+PRIu64	netfilter/testiptcrdr.c	17;"	d	file:
+PRIu64	upnpredirect.c	48;"	d	file:
+ParseHttpHeaders	upnphttp.c	/^ParseHttpHeaders(struct upnphttp * h)$/;"	f	file:
+ParseNameValue	upnpreplyparse.c	/^ParseNameValue(const char * buffer, int bufsize,$/;"	f
+PinholeVerification	upnpsoap.c	/^PinholeVerification(struct upnphttp * h, char * int_ip, unsigned short int_port)$/;"	f	file:
+ProcessHTTPPOST_upnphttp	upnphttp.c	/^ProcessHTTPPOST_upnphttp(struct upnphttp * h)$/;"	f	file:
+ProcessHTTPSubscribe_upnphttp	upnphttp.c	/^ProcessHTTPSubscribe_upnphttp(struct upnphttp * h, const char * path)$/;"	f	file:
+ProcessHTTPUnSubscribe_upnphttp	upnphttp.c	/^ProcessHTTPUnSubscribe_upnphttp(struct upnphttp * h, const char * path)$/;"	f	file:
+ProcessHttpQuery_upnphttp	upnphttp.c	/^ProcessHttpQuery_upnphttp(struct upnphttp * h)$/;"	f	file:
+ProcessIncomingNATPMPPacket	natpmp.c	/^void ProcessIncomingNATPMPPacket(int s)$/;"	f
+ProcessInterfaceWatchNotify	bsd/ifacewatcher.c	/^ProcessInterfaceWatchNotify(int s)$/;"	f
+ProcessInterfaceWatchNotify	linux/ifacewatcher.c	/^ProcessInterfaceWatchNotify(int s)$/;"	f
+ProcessNATPMPPortRequest	natpmp.c	/^int ProcessNATPMPPortRequest($/;"	f
+ProcessNFQUEUE	miniupnpd.c	/^static void ProcessNFQUEUE(int fd){$/;"	f	file:
+ProcessSSDPData	minissdp.c	/^ProcessSSDPData(int s, const char *bufr, int n,$/;"	f
+ProcessSSDPRequest	minissdp.c	/^ProcessSSDPRequest(int s, unsigned short port)$/;"	f
+Process_upnphttp	upnphttp.c	/^Process_upnphttp(struct upnphttp * h)$/;"	f
+QueryStateVariable	upnpsoap.c	/^QueryStateVariable(struct upnphttp * h, const char * action)$/;"	f	file:
+RM	Makefile	/^RM = rm -f$/;"	m
+RM	ipfw/Makefile	/^RM=rm -f$/;"	m
+ROOTDESC_PATH	miniupnpdpath.h	15;"	d
+ROOTDEV_MANUFACTURER	upnpdescstrings.h	14;"	d
+ROOTDEV_MANUFACTURERURL	upnpdescstrings.h	15;"	d
+ROOTDEV_MODELDESCRIPTION	upnpdescstrings.h	17;"	d
+ROOTDEV_MODELNAME	upnpdescstrings.h	16;"	d
+ROOTDEV_MODELURL	upnpdescstrings.h	18;"	d
+RequestConnection	upnpsoap.c	/^RequestConnection(struct upnphttp * h, const char * action)$/;"	f	file:
+SALIGN	bsd/ifacewatcher.c	22;"	d	file:
+SA_LEN	bsd/ifacewatcher.c	19;"	d	file:
+SA_RLEN	bsd/ifacewatcher.c	23;"	d	file:
+SECUREMODEMASK	upnpglobalvars.h	43;"	d
+SERIALNUMBER_MAX_LEN	upnpglobalvars.h	59;"	d
+SERVICES_OFFSET	upnpdescgen.c	160;"	d	file:
+SERVICE_ID_WANIPC	upnpurns.h	19;"	d
+SERVICE_ID_WANIPC	upnpurns.h	26;"	d
+SERVICE_TYPE_WANIPC	upnpurns.h	18;"	d
+SERVICE_TYPE_WANIPC	upnpurns.h	25;"	d
+SETFLAG	upnpglobalvars.h	51;"	d
+SIMPLEQ_EMPTY	bsdqueue.h	268;"	d
+SIMPLEQ_END	bsdqueue.h	267;"	d
+SIMPLEQ_ENTRY	bsdqueue.h	258;"	d
+SIMPLEQ_FIRST	bsdqueue.h	266;"	d
+SIMPLEQ_FOREACH	bsdqueue.h	271;"	d
+SIMPLEQ_HEAD	bsdqueue.h	249;"	d
+SIMPLEQ_HEAD_INITIALIZER	bsdqueue.h	255;"	d
+SIMPLEQ_INIT	bsdqueue.h	279;"	d
+SIMPLEQ_INSERT_AFTER	bsdqueue.h	296;"	d
+SIMPLEQ_INSERT_HEAD	bsdqueue.h	284;"	d
+SIMPLEQ_INSERT_TAIL	bsdqueue.h	290;"	d
+SIMPLEQ_NEXT	bsdqueue.h	269;"	d
+SIMPLEQ_REMOVE_HEAD	bsdqueue.h	302;"	d
+SLIST_EMPTY	bsdqueue.h	116;"	d
+SLIST_END	bsdqueue.h	115;"	d
+SLIST_ENTRY	bsdqueue.h	103;"	d
+SLIST_ENTRY	bsdqueue.h	106;"	d
+SLIST_FIRST	bsdqueue.h	114;"	d
+SLIST_FOREACH	bsdqueue.h	119;"	d
+SLIST_FOREACH_PREVPTR	bsdqueue.h	124;"	d
+SLIST_HEAD	bsdqueue.h	94;"	d
+SLIST_HEAD_INITIALIZER	bsdqueue.h	99;"	d
+SLIST_INIT	bsdqueue.h	132;"	d
+SLIST_INSERT_AFTER	bsdqueue.h	136;"	d
+SLIST_INSERT_HEAD	bsdqueue.h	141;"	d
+SLIST_NEXT	bsdqueue.h	117;"	d
+SLIST_REMOVE	bsdqueue.h	154;"	d
+SLIST_REMOVE_HEAD	bsdqueue.h	150;"	d
+SLIST_REMOVE_NEXT	bsdqueue.h	146;"	d
+SL_SSDP_MCAST_ADDR	minissdp.c	33;"	d	file:
+SSDP_MCAST_ADDR	minissdp.c	31;"	d	file:
+SSDP_PORT	minissdp.c	30;"	d	file:
+STATUS_CONNECTED	getconnstatus.c	16;"	d	file:
+STATUS_CONNECTING	getconnstatus.c	15;"	d	file:
+STATUS_DISCONNECTED	getconnstatus.c	19;"	d	file:
+STATUS_DISCONNECTING	getconnstatus.c	18;"	d	file:
+STATUS_PENDINGDISCONNECT	getconnstatus.c	17;"	d	file:
+STATUS_UNCONFIGURED	getconnstatus.c	14;"	d	file:
+STDOBJS	Makefile	/^STDOBJS = miniupnpd.o upnphttp.o upnpdescgen.o upnpsoap.o \\$/;"	m
+STRIP	Makefile	/^STRIP = strip$/;"	m
+SUNOSOBJS	Makefile	/^SUNOSOBJS = solaris\/getifstats.o bsd\/ifacewatcher.o bsd\/getroute.o$/;"	m
+SUPPORT_REMOTEHOST	config.h	16;"	d
+SYSTEMUPDATEID_MAGICALVALUE	upnpdescgen.c	29;"	d	file:
+SYSUPTIMEMASK	upnpglobalvars.h	38;"	d
+Send404	upnphttp.c	/^Send404(struct upnphttp * h)$/;"	f	file:
+Send405	upnphttp.c	/^Send405(struct upnphttp * h)$/;"	f	file:
+Send501	upnphttp.c	/^Send501(struct upnphttp * h)$/;"	f	file:
+SendNATPMPPublicAddressChangeNotification	natpmp.c	/^void SendNATPMPPublicAddressChangeNotification(int * sockets, int n_sockets)$/;"	f
+SendRespAndClose_upnphttp	upnphttp.c	/^SendRespAndClose_upnphttp(struct upnphttp * h)$/;"	f
+SendResp_upnphttp	upnphttp.c	/^SendResp_upnphttp(struct upnphttp * h)$/;"	f
+SendSSDPAnnounce2	minissdp.c	/^SendSSDPAnnounce2(int s, const struct sockaddr * addr,$/;"	f	file:
+SendSSDPGoodbye	minissdp.c	/^SendSSDPGoodbye(int * sockets, int n_sockets)$/;"	f
+SendSSDPNotifies	minissdp.c	/^SendSSDPNotifies(int s, const char * host, unsigned short port,$/;"	f	file:
+SendSSDPNotifies2	minissdp.c	/^SendSSDPNotifies2(int * sockets,$/;"	f
+SendSSDPNotify	minissdp.c	/^SendSSDPNotify(int s, const struct sockaddr * dest,$/;"	f	file:
+SendSSDPbyebye	minissdp.c	/^SendSSDPbyebye(int s, const struct sockaddr * dest,$/;"	f	file:
+SetConnectionType	upnpsoap.c	/^SetConnectionType(struct upnphttp * h, const char * action)$/;"	f	file:
+SetConnectionTypeArgs	upnpdescgen.c	/^static const struct argument SetConnectionTypeArgs[] =$/;"	v	typeref:struct:argument	file:
+SetDefaultConnectionService	upnpsoap.c	/^SetDefaultConnectionService(struct upnphttp * h, const char * action)$/;"	f	file:
+SetDefaultConnectionServiceArgs	upnpdescgen.c	/^static const struct argument SetDefaultConnectionServiceArgs[] =$/;"	v	typeref:struct:argument	file:
+SetupAuthPMPSession	natpmp.c	/^static struct pmp_auth_session* SetupAuthPMPSession(struct sockaddr_in saddr, int time_stamp) {$/;"	f	file:
+SetupAuthPMPSessionCipher	natpmp.c	/^static int SetupAuthPMPSessionCipher(struct pmp_auth_session *as) {$/;"	f	file:
+SoapError	upnpsoap.c	/^SoapError(struct upnphttp * h, int errCode, const char * errDesc)$/;"	f
+SubmitServicesToMiniSSDPD	minissdp.c	/^SubmitServicesToMiniSSDPD(const char * host, unsigned short port) {$/;"	f
+TAILQ_EMPTY	bsdqueue.h	336;"	d
+TAILQ_END	bsdqueue.h	329;"	d
+TAILQ_ENTRY	bsdqueue.h	319;"	d
+TAILQ_FIRST	bsdqueue.h	328;"	d
+TAILQ_FOREACH	bsdqueue.h	339;"	d
+TAILQ_FOREACH_REVERSE	bsdqueue.h	344;"	d
+TAILQ_HEAD	bsdqueue.h	310;"	d
+TAILQ_HEAD_INITIALIZER	bsdqueue.h	316;"	d
+TAILQ_INIT	bsdqueue.h	352;"	d
+TAILQ_INSERT_AFTER	bsdqueue.h	374;"	d
+TAILQ_INSERT_BEFORE	bsdqueue.h	384;"	d
+TAILQ_INSERT_HEAD	bsdqueue.h	357;"	d
+TAILQ_INSERT_TAIL	bsdqueue.h	367;"	d
+TAILQ_LAST	bsdqueue.h	331;"	d
+TAILQ_NEXT	bsdqueue.h	330;"	d
+TAILQ_PREV	bsdqueue.h	334;"	d
+TAILQ_REMOVE	bsdqueue.h	391;"	d
+TAILQ_REPLACE	bsdqueue.h	402;"	d
+TEST	netfilter/Makefile	/^TEST := $(shell [ \\( \\( $(IPTABLESVERSION1) -ge 1 \\) -a \\( $(IPTABLESVERSION2) -ge 4 \\) \\) -a \\( $(IPTABLESVERSION3) -ge 3 \\) ] && echo 1 )$/;"	m
+TEST	netfilter/Makefile	/^TEST := $(shell test -f \/usr\/include\/xtables.h && grep -q "XTABLES_VERSION_CODE" \/usr\/include\/xtables.h && echo 1)$/;"	m
+TESTGETIFADDROBJS	Makefile	/^TESTGETIFADDROBJS = testgetifaddr.o getifaddr.o$/;"	m
+TESTGETIFSTATSOBJS	Makefile	/^TESTGETIFSTATSOBJS = testgetifstats.o bsd\/getifstats.o$/;"	m
+TESTGETIFSTATSOBJS	Makefile	/^TESTGETIFSTATSOBJS = testgetifstats.o mac\/getifstats.o$/;"	m
+TESTGETIFSTATSOBJS	Makefile	/^TESTGETIFSTATSOBJS = testgetifstats.o solaris\/getifstats.o$/;"	m
+TESTGETROUTEOBJS	Makefile	/^TESTGETROUTEOBJS = testgetroute.o upnputils.o bsd\/getroute.o$/;"	m
+TESTUPNPDESCGENOBJS	Makefile	/^TESTUPNPDESCGENOBJS = testupnpdescgen.o upnpdescgen.o$/;"	m
+TESTUPNPPERMISSIONSOBJS	Makefile	/^TESTUPNPPERMISSIONSOBJS = testupnppermissions.o upnppermissions.o$/;"	m
+TEST_LIB	netfilter/Makefile	/^TEST_LIB := $(shell test -f \/usr\/lib$(ARCH)\/libiptc.a && echo 1)$/;"	m
+TINY_NF_NAT_H	netfilter/tiny_nf_nat.h	5;"	d
+TransDSPAddress	natpmp.c	/^static const char *TransDSPAddress = NULL;$/;"	v	file:
+UNUSED	macros.h	11;"	d
+UPNPANCHOR	options.h	/^	UPNPANCHOR,				\/* anchor *\/$/;"	e	enum:upnpconfigoptions
+UPNPBITRATE_DOWN	options.h	/^	UPNPBITRATE_DOWN,		\/* "bitrate_down" *\/$/;"	e	enum:upnpconfigoptions
+UPNPBITRATE_UP	options.h	/^	UPNPBITRATE_UP,			\/* "bitrate_up" *\/$/;"	e	enum:upnpconfigoptions
+UPNPCLEANINTERVAL	options.h	/^	UPNPCLEANINTERVAL,		\/* clean_ruleset_interval *\/$/;"	e	enum:upnpconfigoptions
+UPNPCLEANTHRESHOLD	options.h	/^	UPNPCLEANTHRESHOLD,		\/* clean_ruleset_threshold *\/$/;"	e	enum:upnpconfigoptions
+UPNPDESCGEN_H_INCLUDED	upnpdescgen.h	9;"	d
+UPNPDESCSTRINGS_H_INCLUDED	upnpdescstrings.h	8;"	d
+UPNPENABLE	options.h	/^	UPNPENABLE				\/* enable_upnp *\/$/;"	e	enum:upnpconfigoptions
+UPNPENABLENATPMP	options.h	/^	UPNPENABLENATPMP,		\/* enable_natpmp *\/$/;"	e	enum:upnpconfigoptions
+UPNPEVENTS_H_INCLUDED	upnpevents.h	9;"	d
+UPNPEXT_IFNAME	options.h	/^	UPNPEXT_IFNAME = 1,		\/* ext_ifname *\/$/;"	e	enum:upnpconfigoptions
+UPNPEXT_IP	options.h	/^	UPNPEXT_IP,				\/* ext_ip *\/$/;"	e	enum:upnpconfigoptions
+UPNPFORWARDCHAIN	options.h	/^	UPNPFORWARDCHAIN,$/;"	e	enum:upnpconfigoptions
+UPNPFRIENDLY_NAME	options.h	/^	UPNPFRIENDLY_NAME,		\/* "friendly_name" *\/$/;"	e	enum:upnpconfigoptions
+UPNPGLOBALVARS_H_INCLUDED	upnpglobalvars.h	9;"	d
+UPNPHTTP_H_INCLUDED	upnphttp.h	9;"	d
+UPNPLEASEFILE	options.h	/^	UPNPLEASEFILE,			\/* lease_file *\/$/;"	e	enum:upnpconfigoptions
+UPNPLISTENING_IP	options.h	/^	UPNPLISTENING_IP,		\/* listening_ip *\/$/;"	e	enum:upnpconfigoptions
+UPNPMINISSDPDSOCKET	options.h	/^	UPNPMINISSDPDSOCKET,	\/* minissdpdsocket *\/$/;"	e	enum:upnpconfigoptions
+UPNPMODEL_NUMBER	options.h	/^	UPNPMODEL_NUMBER,		\/* model_number *\/$/;"	e	enum:upnpconfigoptions
+UPNPNATCHAIN	options.h	/^	UPNPNATCHAIN,$/;"	e	enum:upnpconfigoptions
+UPNPNATPMPSECRET	options.h	/^	UPNPNATPMPSECRET,		\/* nat pmp secret *\/$/;"	e	enum:upnpconfigoptions
+UPNPNOTIFY_INTERVAL	options.h	/^	UPNPNOTIFY_INTERVAL,	\/* notify_interval *\/$/;"	e	enum:upnpconfigoptions
+UPNPPACKET_LOG	options.h	/^	UPNPPACKET_LOG,			\/* "packet_log" *\/$/;"	e	enum:upnpconfigoptions
+UPNPPERMISSIONS_H_INCLUDED	upnppermissions.h	9;"	d
+UPNPPERM_ALLOW	upnppermissions.h	/^	enum {UPNPPERM_ALLOW=1, UPNPPERM_DENY=2 } type;$/;"	e	enum:upnpperm::__anon11
+UPNPPERM_DENY	upnppermissions.h	/^	enum {UPNPPERM_ALLOW=1, UPNPPERM_DENY=2 } type;$/;"	e	enum:upnpperm::__anon11
+UPNPPINHOLE_H_INCLUDED	upnppinhole.h	9;"	d
+UPNPPORT	options.h	/^	UPNPPORT,				\/* "port" *\/$/;"	e	enum:upnpconfigoptions
+UPNPPRESENTATIONURL	options.h	/^	UPNPPRESENTATIONURL,	\/* presentation_url *\/$/;"	e	enum:upnpconfigoptions
+UPNPQUEUE	options.h	/^	UPNPQUEUE,				\/* queue *\/$/;"	e	enum:upnpconfigoptions
+UPNPQUICKRULES	options.h	/^	UPNPQUICKRULES,			\/* quickrules *\/$/;"	e	enum:upnpconfigoptions
+UPNPREDIRECT_H_INCLUDED	upnpredirect.h	9;"	d
+UPNPREPLYPARSE_H_INCLUDED	upnpreplyparse.h	9;"	d
+UPNPSECUREMODE	options.h	/^	UPNPSECUREMODE,			\/* secure_mode *\/$/;"	e	enum:upnpconfigoptions
+UPNPSERIAL	options.h	/^	UPNPSERIAL,				\/* serial *\/$/;"	e	enum:upnpconfigoptions
+UPNPSOAP_H_INCLUDED	upnpsoap.h	9;"	d
+UPNPSYSTEM_UPTIME	options.h	/^	UPNPSYSTEM_UPTIME,		\/* "system_uptime" *\/$/;"	e	enum:upnpconfigoptions
+UPNPTAG	options.h	/^	UPNPTAG,				\/* tag *\/$/;"	e	enum:upnpconfigoptions
+UPNPTRANSDSPADDR	options.h	/^	UPNPTRANSDSPADDR,		\/* nat pmp secret *\/$/;"	e	enum:upnpconfigoptions
+UPNPURNS_H_INCLUDED	upnpurns.h	9;"	d
+UPNPUTILS_H_INCLUDED	upnputils.h	9;"	d
+UPNPUUID	options.h	/^	UPNPUUID,				\/* uuid *\/$/;"	e	enum:upnpconfigoptions
+UPNP_INVALID	options.h	/^	UPNP_INVALID = 0,$/;"	e	enum:upnpconfigoptions
+UPNP_VERSION	config.h	13;"	d
+UPNP_VERSION_STRING	upnphttp.h	21;"	d
+USE_DAEMON	config.h	50;"	d
+USE_IFACEWATCHER	config.h	14;"	d
+USE_IFNAME_IN_RULES	config.h	85;"	d
+USE_NETFILTER	config.h	15;"	d
+U_32_T	ipf/ipfrdr.c	83;"	d	file:
+UpdatePinhole	upnpsoap.c	/^UpdatePinhole(struct upnphttp * h, const char * action)$/;"	f	file:
+UpdatePinholeArgs	upnpdescgen.c	/^static const struct argument UpdatePinholeArgs[] =$/;"	v	typeref:struct:argument	file:
+WANCDEV_FRIENDLYNAME	upnpdescstrings.h	30;"	d
+WANCDEV_MANUFACTURER	upnpdescstrings.h	31;"	d
+WANCDEV_MANUFACTURERURL	upnpdescstrings.h	32;"	d
+WANCDEV_MODELDESCRIPTION	upnpdescstrings.h	34;"	d
+WANCDEV_MODELNAME	upnpdescstrings.h	33;"	d
+WANCDEV_MODELNUMBER	upnpdescstrings.h	35;"	d
+WANCDEV_MODELURL	upnpdescstrings.h	36;"	d
+WANCDEV_UPC	upnpdescstrings.h	37;"	d
+WANCFG_CONTROLURL	miniupnpdpath.h	22;"	d
+WANCFG_EVENTURL	miniupnpdpath.h	23;"	d
+WANCFG_PATH	miniupnpdpath.h	21;"	d
+WANCfgActions	upnpdescgen.c	/^static const struct action WANCfgActions[] =$/;"	v	typeref:struct:action	file:
+WANCfgVars	upnpdescgen.c	/^static const struct stateVar WANCfgVars[] =$/;"	v	typeref:struct:stateVar	file:
+WANDEV_FRIENDLYNAME	upnpdescstrings.h	20;"	d
+WANDEV_MANUFACTURER	upnpdescstrings.h	21;"	d
+WANDEV_MANUFACTURERURL	upnpdescstrings.h	22;"	d
+WANDEV_MODELDESCRIPTION	upnpdescstrings.h	24;"	d
+WANDEV_MODELNAME	upnpdescstrings.h	23;"	d
+WANDEV_MODELNUMBER	upnpdescstrings.h	25;"	d
+WANDEV_MODELURL	upnpdescstrings.h	26;"	d
+WANDEV_UPC	upnpdescstrings.h	27;"	d
+WANIP6FC_CONTROLURL	miniupnpdpath.h	37;"	d
+WANIP6FC_EVENTURL	miniupnpdpath.h	38;"	d
+WANIP6FC_PATH	miniupnpdpath.h	36;"	d
+WANIPC_CONTROLURL	miniupnpdpath.h	26;"	d
+WANIPC_EVENTURL	miniupnpdpath.h	27;"	d
+WANIPC_PATH	miniupnpdpath.h	25;"	d
+WANIPC_VER	minissdp.c	389;"	d	file:
+WANIPC_VER	minissdp.c	392;"	d	file:
+WANIPCnActions	upnpdescgen.c	/^static const struct action WANIPCnActions[] =$/;"	v	typeref:struct:action	file:
+WANIPCnVars	upnpdescgen.c	/^static const struct stateVar WANIPCnVars[] =$/;"	v	typeref:struct:stateVar	file:
+XMLElt	upnpdescgen.h	/^struct XMLElt {$/;"	s
+_KERNEL	ipf/ipfrdr.c	18;"	d	file:
+_KERNEL	ipf/ipfrdr.c	26;"	d	file:
+_KERNEL	ipfw/ipfwrdr.c	24;"	d	file:
+_KERNEL	ipfw/ipfwrdr.c	32;"	d	file:
+_Q_INVALIDATE	bsdqueue.h	86;"	d
+_Q_INVALIDATE	bsdqueue.h	88;"	d
+_SYS_QUEUE_H_	bsdqueue.h	36;"	d
+__P	ipf/ipfrdr.c	72;"	d	file:
+__P	ipf/ipfrdr.c	74;"	d	file:
+__must_be_array	netfilter/iptcrdr.c	27;"	d	file:
+_upnp_delete_redir	upnpredirect.c	/^_upnp_delete_redir(unsigned short eport, int proto)$/;"	f
+accept_language	upnphttp.h	/^	char accept_language[8];$/;"	m	struct:upnphttp
+action	upnpdescgen.h	/^struct action {$/;"	s
+actionList	upnpdescgen.h	/^	const struct action * actionList;$/;"	m	struct:serviceDesc	typeref:struct:serviceDesc::action
+add_desc_time	ipfw/ipfwrdr.c	/^add_desc_time(unsigned short eport, int proto,$/;"	f	file:
+add_filter_rule	netfilter/iptcrdr.c	/^add_filter_rule(int proto, const char * rhost,$/;"	f	file:
+add_filter_rule2	ipf/ipfrdr.c	/^add_filter_rule2(const char * ifname, const char * rhost,$/;"	f
+add_filter_rule2	ipfw/ipfwrdr.c	/^int add_filter_rule2($/;"	f
+add_filter_rule2	netfilter/iptcrdr.c	/^add_filter_rule2(const char * ifname,$/;"	f
+add_filter_rule2	pf/obsdrdr.c	/^add_filter_rule2(const char * ifname,$/;"	f
+add_pinhole	netfilter/iptpinhole.c	/^int add_pinhole(const char * ifname,$/;"	f
+add_pinhole	pf/pfpinhole.c	/^int add_pinhole(const char * ifname,$/;"	f
+add_redirect_desc	ipf/ipfrdr.c	/^add_redirect_desc(unsigned short eport, int proto,$/;"	f	file:
+add_redirect_desc	netfilter/iptcrdr.c	/^add_redirect_desc(unsigned short eport, int proto,$/;"	f	file:
+add_redirect_rule2	ipf/ipfrdr.c	/^add_redirect_rule2(const char * ifname, const char * rhost,$/;"	f
+add_redirect_rule2	ipfw/ipfwrdr.c	/^int add_redirect_rule2($/;"	f
+add_redirect_rule2	netfilter/iptcrdr.c	/^add_redirect_rule2(const char * ifname,$/;"	f
+add_redirect_rule2	pf/obsdrdr.c	/^add_redirect_rule2(const char * ifname,$/;"	f
+add_to_pinhole_list	netfilter/iptpinhole.c	/^add_to_pinhole_list(struct in6_addr * saddr, unsigned short sport,$/;"	f	file:
+addfunc_t	ipf/ipfrdr.c	/^typedef	void	(* addfunc_t) __P((int, ioctlfunc_t, void *));$/;"	t	file:
+addnatrule	netfilter/iptcrdr.c	/^addnatrule(int proto, unsigned short eport,$/;"	f	file:
+addr	miniupnpdtypes.h	/^	struct in_addr addr, mask;	\/* ip\/mask *\/$/;"	m	struct:lan_addr_s	typeref:struct:lan_addr_s::in_addr
+address	natpmp.c	/^	struct sockaddr_in address;$/;"	m	struct:pmp_auth_session	typeref:struct:pmp_auth_session::sockaddr_in	file:
+address	upnppermissions.h	/^	struct in_addr address, mask;	\/* ip\/mask *\/$/;"	m	struct:upnpperm	typeref:struct:upnpperm::in_addr
+addrstr	upnpevents.c	/^	char addrstr[16];$/;"	m	struct:upnp_event_notify	file:
+addrstr	upnpevents.c	/^	char addrstr[48];$/;"	m	struct:upnp_event_notify	file:
+all	netfilter/tiny_nf_nat.h	/^	__be16 all;$/;"	m	union:nf_conntrack_man_proto
+anchor_name	pf/testobsdrdr.c	/^const char * anchor_name = "miniupnpd";$/;"	v
+anchor_name	pf/testpfpinhole.c	/^const char * anchor_name = "miniupnpd";$/;"	v
+anchor_name	upnpglobalvars.c	/^const char * anchor_name = "miniupnpd";$/;"	v
+args	upnpdescgen.h	/^	const struct argument * args;$/;"	m	struct:action	typeref:struct:action::argument
+argument	upnpdescgen.h	/^struct argument {	\/* the name of the arg is obtained from the variable *\/$/;"	s
+ary_options	options.c	/^struct option * ary_options = NULL;$/;"	v	typeref:struct:option
+attfunc	minixml.h	/^	void (*attfunc) (void *, const char *, int, const char *, int);$/;"	m	struct:xmlparser
+auth_session	natpmp.c	/^static struct pmp_auth_session auth_session[MAX_AUTH_SESSIONS];$/;"	v	typeref:struct:pmp_auth_session	file:
+baudrate	getifstats.h	/^	unsigned long baudrate;$/;"	m	struct:ifdata
+buffer	upnpevents.c	/^    char * buffer;$/;"	m	struct:upnp_event_notify	file:
+buffersize	upnpevents.c	/^    int buffersize;$/;"	m	struct:upnp_event_notify	file:
+bytes	upnpredirect.h	/^	u_int64_t bytes;$/;"	m	struct:rule_state
+callback	upnpevents.c	/^	char callback[];$/;"	m	struct:subscriber	file:
+checkCallbackURL	upnphttp.c	/^checkCallbackURL(struct upnphttp * h)$/;"	f	file:
+check_upnp_rule_against_permissions	upnppermissions.c	/^check_upnp_rule_against_permissions(const struct upnpperm * permary,$/;"	f
+checkforrunning	daemonize.c	/^checkforrunning(const char * fname)$/;"	f
+cipher	natpmp.c	/^	gcry_cipher_hd_t cipher;$/;"	m	struct:pmp_auth_session	file:
+cipher_configured	natpmp.c	/^	short int cipher_configured; \/* Boolean *\/$/;"	m	struct:pmp_auth_session	file:
+clean_pinhole_list	netfilter/iptpinhole.c	/^clean_pinhole_list(unsigned int * next_timestamp)$/;"	f
+clean_pinhole_list	pf/pfpinhole.c	/^int clean_pinhole_list(unsigned int * next_timestamp)$/;"	f
+clean_ruleset_interval	miniupnpd.c	/^	int clean_ruleset_interval;		\/* (minimum) interval between checks *\/$/;"	m	struct:runtime_vars	file:
+clean_ruleset_threshold	miniupnpd.c	/^	int clean_ruleset_threshold;	\/* threshold for removing unused rules *\/$/;"	m	struct:runtime_vars	file:
+clear_redirect_rules	pf/obsdrdr.c	/^clear_redirect_rules(void)$/;"	f
+clientaddr	upnphttp.h	/^	struct in_addr clientaddr;	\/* client address *\/$/;"	m	struct:upnphttp	typeref:struct:upnphttp::in_addr
+clientaddr_v6	upnphttp.h	/^	struct in6_addr clientaddr_v6;$/;"	m	struct:upnphttp	typeref:struct:upnphttp::in6_addr
+const	ipf/ipfrdr.c	78;"	d	file:
+const	ipf/ipfrdr.c	79;"	d	file:
+copyfunc_t	ipf/ipfrdr.c	/^typedef	int	(* copyfunc_t) __P((void *, void *, size_t));$/;"	t	file:
+ctlelem	miniupnpd.c	/^struct ctlelem {$/;"	s	file:
+curelt	upnpreplyparse.h	/^    char curelt[64];$/;"	m	struct:NameValueParserData
+daddr	netfilter/iptpinhole.c	/^	struct in6_addr daddr;$/;"	m	struct:pinhole_t	typeref:struct:pinhole_t::in6_addr	file:
+daemonize	daemonize.c	/^daemonize(void)$/;"	f
+data	minixml.h	/^	void * data;$/;"	m	struct:xmlparser
+data	upnpdescgen.h	/^	const char * data;	\/* Value *\/$/;"	m	struct:XMLElt
+datafunc	minixml.h	/^	void (*datafunc) (void *, const char *, int);$/;"	m	struct:xmlparser
+dccp	netfilter/tiny_nf_nat.h	/^	struct { __be16 port; } dccp;$/;"	m	union:nf_conntrack_man_proto	typeref:struct:nf_conntrack_man_proto::__anon6
+del_desc_time	ipfw/ipfwrdr.c	/^del_desc_time(unsigned short eport, int proto)$/;"	f	file:
+del_redirect_desc	ipf/ipfrdr.c	/^del_redirect_desc(unsigned short eport, int proto)$/;"	f	file:
+del_redirect_desc	netfilter/iptcrdr.c	/^del_redirect_desc(unsigned short eport, int proto)$/;"	f	file:
+delete_filter_rule	ipf/ipfrdr.c	/^delete_filter_rule(const char * ifname, unsigned short eport, int proto)$/;"	f
+delete_filter_rule	ipfw/ipfwrdr.c	/^int delete_filter_rule($/;"	f
+delete_filter_rule	pf/obsdrdr.c	/^delete_filter_rule(const char * ifname, unsigned short eport, int proto)$/;"	f
+delete_pinhole	netfilter/iptpinhole.c	/^delete_pinhole(unsigned short uid)$/;"	f
+delete_pinhole	pf/pfpinhole.c	/^int delete_pinhole(unsigned short uid)$/;"	f
+delete_redirect_and_filter_rules	netfilter/iptcrdr.c	/^delete_redirect_and_filter_rules(unsigned short eport, int proto)$/;"	f
+delete_redirect_rule	ipf/ipfrdr.c	/^delete_redirect_rule(const char * ifname, unsigned short eport, int proto)$/;"	f
+delete_redirect_rule	ipfw/ipfwrdr.c	/^int delete_redirect_rule($/;"	f
+delete_redirect_rule	pf/obsdrdr.c	/^delete_redirect_rule(const char * ifname, unsigned short eport, int proto)$/;"	f
+delete_rule_and_commit	netfilter/iptcrdr.c	/^delete_rule_and_commit(unsigned int index, IPTC_HANDLE h,$/;"	f	file:
+desc	ipfw/ipfwrdr.c	/^	char desc[];$/;"	m	struct:mapping_desc_time	file:
+dev	ipf/ipfrdr.c	/^static int dev = -1;$/;"	v	file:
+dev	pf/obsdrdr.c	/^int dev = -1;$/;"	v
+dev_ipl	ipf/ipfrdr.c	/^static int dev_ipl = -1;$/;"	v	file:
+dir	upnpdescgen.h	/^	unsigned char dir;		\/* MSB : don't append "New" Flag,$/;"	m	struct:argument
+downstream_bitrate	upnpglobalvars.c	/^unsigned long downstream_bitrate = 0;$/;"	v
+dport	netfilter/iptpinhole.c	/^	unsigned short dport;$/;"	m	struct:pinhole_t	file:
+eltname	upnpdescgen.h	/^	const char * eltname;	\/* begin with '\/' if no child *\/$/;"	m	struct:XMLElt
+endeltfunc	minixml.h	/^	void (*endeltfunc) (void *, const char *, int);$/;"	m	struct:xmlparser
+entries	upnphttp.h	/^	LIST_ENTRY(upnphttp) entries;$/;"	m	struct:upnphttp
+entries	upnpreplyparse.h	/^    LIST_ENTRY(NameValue) entries;$/;"	m	struct:NameValue
+eport	ipf/ipfrdr.c	/^	unsigned short eport;$/;"	m	struct:rdr_desc	file:
+eport	ipfw/ipfwrdr.c	/^	unsigned short eport;$/;"	m	struct:mapping_desc_time	file:
+eport	netfilter/iptcrdr.c	/^	unsigned short eport;$/;"	m	struct:rdr_desc	file:
+eport	pf/obsdrdr.c	/^	unsigned short eport;$/;"	m	struct:timestamp_entry	file:
+eport	upnpredirect.h	/^	unsigned short eport;$/;"	m	struct:rule_state
+eport_max	upnppermissions.h	/^	u_short eport_min, eport_max;	\/* external port range *\/$/;"	m	struct:upnpperm
+eport_min	upnppermissions.h	/^	u_short eport_min, eport_max;	\/* external port range *\/$/;"	m	struct:upnpperm
+expiry	natpmp.c	/^	unsigned int expiry;$/;"	m	struct:pmp_auth_session	file:
+ext_if_name	bsd/testifacewatcher.c	/^const char * ext_if_name;$/;"	v
+ext_if_name	testupnpdescgen.c	/^const char * ext_if_name = "eth0";$/;"	v
+ext_if_name	upnpglobalvars.c	/^const char * ext_if_name = 0;$/;"	v
+ext_ip_addr	miniupnpdtypes.h	/^	struct in_addr ext_ip_addr;$/;"	m	struct:lan_addr_s	typeref:struct:lan_addr_s::in_addr
+ext_ip_str	miniupnpdtypes.h	/^	char ext_ip_str[16];$/;"	m	struct:lan_addr_s
+find_ipv6_addr	getifaddr.c	/^find_ipv6_addr(const char * ifname,$/;"	f
+findendheaders	upnphttp.c	/^findendheaders(const char * s, int len)$/;"	f	file:
+flags	netfilter/tiny_nf_nat.h	/^	unsigned int flags;$/;"	m	struct:nf_nat_range
+freeoptions	options.c	/^freeoptions(void)$/;"	f
+friendly_name	testupnpdescgen.c	/^char friendly_name[] = OS_NAME " router";$/;"	v
+friendly_name	upnpglobalvars.c	/^char friendly_name[FRIENDLY_NAME_MAX_LEN] = OS_NAME " router";$/;"	v
+gen6FC	upnpdescgen.c	/^gen6FC(int * len)$/;"	f
+genDP	upnpdescgen.c	/^genDP(int * len)$/;"	f
+genEventVars	upnpdescgen.c	/^genEventVars(int * len, const struct serviceDesc * s, const char * servns)$/;"	f	file:
+genL3F	upnpdescgen.c	/^genL3F(int * len)$/;"	f
+genRootDesc	upnpdescgen.c	/^genRootDesc(int * len)$/;"	f
+genServiceDesc	upnpdescgen.c	/^genServiceDesc(int * len, const struct serviceDesc * s)$/;"	f	file:
+genWANCfg	upnpdescgen.c	/^genWANCfg(int * len)$/;"	f
+genWANIPCn	upnpdescgen.c	/^genWANIPCn(int * len)$/;"	f
+genXML	upnpdescgen.c	/^genXML(char * str, int * len, int * tmplen,$/;"	f	file:
+getVars6FC	upnpdescgen.c	/^getVars6FC(int * l)$/;"	f
+getVarsDP	upnpdescgen.c	/^getVarsDP(int * l)$/;"	f
+getVarsL3F	upnpdescgen.c	/^getVarsL3F(int * l)$/;"	f
+getVarsWANCfg	upnpdescgen.c	/^getVarsWANCfg(int * l)$/;"	f
+getVarsWANIPCn	upnpdescgen.c	/^getVarsWANIPCn(int * l)$/;"	f
+get_accept_target	netfilter/iptcrdr.c	/^get_accept_target(void)$/;"	f	file:
+get_accept_target	netfilter/iptpinhole.c	/^get_accept_target(void)$/;"	f	file:
+get_desc_time	ipfw/ipfwrdr.c	/^get_desc_time(unsigned short eport, int proto,$/;"	f	file:
+get_dnat_target	netfilter/iptcrdr.c	/^get_dnat_target(const char * daddr, unsigned short dport)$/;"	f	file:
+get_lan_for_peer	upnputils.c	/^get_lan_for_peer(const struct sockaddr * peer)$/;"	f
+get_pinhole	netfilter/iptpinhole.c	/^get_pinhole(unsigned short uid)$/;"	f	file:
+get_pinhole_info	netfilter/iptpinhole.c	/^get_pinhole_info(unsigned short uid,$/;"	f
+get_pinhole_info	pf/pfpinhole.c	/^get_pinhole_info(unsigned short uid,$/;"	f
+get_portmappings_in_range	ipf/ipfrdr.c	/^get_portmappings_in_range(unsigned short startport, unsigned short endport,$/;"	f
+get_portmappings_in_range	ipfw/ipfwrdr.c	/^get_portmappings_in_range(unsigned short startport,$/;"	f
+get_portmappings_in_range	netfilter/iptcrdr.c	/^get_portmappings_in_range(unsigned short startport, unsigned short endport,$/;"	f
+get_portmappings_in_range	pf/obsdrdr.c	/^get_portmappings_in_range(unsigned short startport, unsigned short endport,$/;"	f
+get_redirect_desc	ipf/ipfrdr.c	/^get_redirect_desc(unsigned short eport, int proto, char * desc, int desclen, unsigned int * timestamp)$/;"	f	file:
+get_redirect_desc	netfilter/iptcrdr.c	/^get_redirect_desc(unsigned short eport, int proto,$/;"	f	file:
+get_redirect_desc_by_index	netfilter/iptcrdr.c	/^get_redirect_desc_by_index(int index, unsigned short * eport, int * proto,$/;"	f	file:
+get_redirect_rule	ipf/ipfrdr.c	/^get_redirect_rule(const char * ifname, unsigned short eport, int proto,$/;"	f
+get_redirect_rule	ipfw/ipfwrdr.c	/^int get_redirect_rule($/;"	f
+get_redirect_rule	netfilter/iptcrdr.c	/^get_redirect_rule(const char * ifname, unsigned short eport, int proto,$/;"	f
+get_redirect_rule	pf/obsdrdr.c	/^get_redirect_rule(const char * ifname, unsigned short eport, int proto,$/;"	f
+get_redirect_rule_by_index	ipf/ipfrdr.c	/^get_redirect_rule_by_index(int index,$/;"	f
+get_redirect_rule_by_index	ipfw/ipfwrdr.c	/^int get_redirect_rule_by_index($/;"	f
+get_redirect_rule_by_index	netfilter/iptcrdr.c	/^get_redirect_rule_by_index(int index,$/;"	f
+get_redirect_rule_by_index	pf/obsdrdr.c	/^get_redirect_rule_by_index(int index,$/;"	f
+get_src_for_route_to	bsd/getroute.c	/^get_src_for_route_to(const struct sockaddr * dst,$/;"	f
+get_src_for_route_to	linux/getroute.c	/^get_src_for_route_to(const struct sockaddr * dst,$/;"	f
+get_tcp_match	netfilter/iptcrdr.c	/^get_tcp_match(unsigned short dport)$/;"	f	file:
+get_timestamp	pf/obsdrdr.c	/^get_timestamp(unsigned short eport, int proto)$/;"	f	file:
+get_udp_dst_port	miniupnpd.c	/^int get_udp_dst_port(char *payload) {$/;"	f
+get_udp_match	netfilter/iptcrdr.c	/^get_udp_match(unsigned short dport)$/;"	f	file:
+get_upnp_rules_state_list	upnpredirect.c	/^get_upnp_rules_state_list(int max_rules_number_target)$/;"	f
+get_wan_connection_status	getconnstatus.c	/^get_wan_connection_status(const char * ifname)$/;"	f
+get_wan_connection_status	testupnpdescgen.c	/^int get_wan_connection_status(const char * ifname)$/;"	f
+get_wan_connection_status_str	getconnstatus.c	/^get_wan_connection_status_str(const char * ifname)$/;"	f
+getifaddr	getifaddr.c	/^getifaddr(const char * ifname, char * buf, int len,$/;"	f
+getifaddr	testupnpdescgen.c	/^int getifaddr(const char * ifname, char * buf, int len)$/;"	f
+getifstats	bsd/getifstats.c	/^getifstats(const char * ifname, struct ifdata * data)$/;"	f
+getifstats	linux/getifstats.c	/^getifstats(const char * ifname, struct ifdata * data)$/;"	f
+getifstats	mac/getifstats.c	/^int getifstats(const char * ifname, struct ifdata * data) {$/;"	f
+getifstats	solaris/getifstats.c	/^getifstats(const char * ifname, struct ifdata * data)$/;"	f
+gre	netfilter/tiny_nf_nat.h	/^	struct { __be16 key;  } gre;$/;"	m	union:nf_conntrack_man_proto	typeref:struct:nf_conntrack_man_proto::__anon8
+group_name	ipf/ipfrdr.c	/^static const char group_name[] = "miniupnpd";$/;"	v	file:
+head	upnpreplyparse.h	/^    LIST_HEAD(listhead, NameValue) head;$/;"	m	struct:NameValueParserData
+httpCommands	upnphttp.h	/^enum httpCommands {$/;"	g
+httpStates	upnphttp.h	/^enum httpStates {$/;"	g
+httpresphead	upnphttp.c	/^static const char httpresphead[] =$/;"	v	file:
+iallowedlist	upnpdescgen.h	/^	unsigned char iallowedlist;	\/* index in allowed values list$/;"	m	struct:stateVar
+ibytes	getifstats.h	/^	unsigned long ibytes;$/;"	m	struct:ifdata
+icmp	netfilter/tiny_nf_nat.h	/^	struct { __be16 id;   } icmp;$/;"	m	union:nf_conntrack_man_proto	typeref:struct:nf_conntrack_man_proto::__anon5
+id	netfilter/tiny_nf_nat.h	/^	struct { __be16 id;   } icmp;$/;"	m	struct:nf_conntrack_man_proto::__anon5
+id	options.c	/^	enum upnpconfigoptions id;$/;"	m	struct:__anon1	typeref:enum:__anon1::upnpconfigoptions	file:
+id	options.h	/^	enum upnpconfigoptions id;$/;"	m	struct:option	typeref:enum:option::upnpconfigoptions
+idefault	upnpdescgen.h	/^	unsigned char idefault;	\/* default value *\/$/;"	m	struct:stateVar
+identify_ip_protocol	miniupnpd.c	/^int identify_ip_protocol(char *payload) {$/;"	f
+ieventvalue	upnpdescgen.h	/^	unsigned char ieventvalue;	\/* fixed value returned or magical values *\/$/;"	m	struct:stateVar
+ifdata	getifstats.h	/^struct ifdata {$/;"	s
+ifname	ipfw/testipfwrdr.c	/^static const char * ifname = "lo0";$/;"	v	file:
+ifname	miniupnpdtypes.h	/^	char ifname[IFNAMSIZ];	\/* example: eth0 *\/$/;"	m	struct:lan_addr_s
+index	miniupnpdtypes.h	/^	unsigned int index;		\/* use if_nametoindex() *\/$/;"	m	struct:lan_addr_s
+init	miniupnpd.c	/^init(int argc, char * * argv, struct runtime_vars * v)$/;"	f	file:
+init_iptpinhole	netfilter/iptpinhole.c	/^void init_iptpinhole(void)$/;"	f
+init_redirect	ipf/ipfrdr.c	/^int init_redirect(void)$/;"	f
+init_redirect	ipfw/ipfwrdr.c	/^int init_redirect(void) {$/;"	f
+init_redirect	netfilter/iptcrdr.c	/^int init_redirect(void)$/;"	f
+init_redirect	pf/obsdrdr.c	/^init_redirect(void)$/;"	f
+ioctlfunc_t	ipf/ipfrdr.c	/^typedef	int	(* ioctlfunc_t) __P((dev_t, ioctlcmd_t, void *));$/;"	t	file:
+ioctlfunc_t	ipf/ipfrdr.c	/^typedef	int	(* ioctlfunc_t) __P((int, ioctlcmd_t, ...));$/;"	t	file:
+ip6tc_init_verify_append	netfilter/iptpinhole.c	/^ip6tc_init_verify_append(const char * table,$/;"	f	file:
+ip_nat_multi_range	netfilter/iptcrdr.c	37;"	d	file:
+ip_nat_range	netfilter/iptcrdr.c	38;"	d	file:
+ipackets	getifstats.h	/^	unsigned long ipackets;$/;"	m	struct:ifdata
+ipfw_exec	ipfw/ipfwaux.c	/^int ipfw_exec(int optname, void * optval, uintptr_t optlen) {$/;"	f
+ipfw_fetch_ruleset	ipfw/ipfwaux.c	/^int ipfw_fetch_ruleset(struct ip_fw ** rules, int * total_fetched, int count) {$/;"	f
+ipfw_free_ruleset	ipfw/ipfwaux.c	/^void ipfw_free_ruleset(struct ip_fw ** rules) {$/;"	f
+ipfw_validate_ifname	ipfw/ipfwaux.c	/^int ipfw_validate_ifname(const char * const value) {$/;"	f
+ipfw_validate_protocol	ipfw/ipfwaux.c	/^int ipfw_validate_protocol(int value) {$/;"	f
+iport_max	upnppermissions.h	/^	u_short iport_min, iport_max;	\/* internal port range *\/$/;"	m	struct:upnpperm
+iport_min	upnppermissions.h	/^	u_short iport_min, iport_max;	\/* internal port range *\/$/;"	m	struct:upnpperm
+iptc_init_verify_and_append	netfilter/iptcrdr.c	/^iptc_init_verify_and_append(const char * table,$/;"	f	file:
+ipv6	upnpevents.c	/^	int ipv6;$/;"	m	struct:upnp_event_notify	file:
+ipv6	upnphttp.h	/^	int ipv6;$/;"	m	struct:upnphttp
+ipv6_addr_for_http_with_brackets	upnpglobalvars.c	/^char ipv6_addr_for_http_with_brackets[64];$/;"	v
+ipv6fc_firewall_enabled	testupnpdescgen.c	/^int ipv6fc_firewall_enabled = 1;$/;"	v
+ipv6fc_firewall_enabled	upnpglobalvars.c	/^int ipv6fc_firewall_enabled = 1;$/;"	v
+ipv6fc_inbound_pinhole_allowed	testupnpdescgen.c	/^int ipv6fc_inbound_pinhole_allowed = 1;$/;"	v
+ipv6fc_inbound_pinhole_allowed	upnpglobalvars.c	/^int ipv6fc_inbound_pinhole_allowed = 1;$/;"	v
+itype	upnpdescgen.h	/^	unsigned char itype;	\/* MSB: sendEvent flag, 7 LSB: index in upnptypes *\/$/;"	m	struct:stateVar
+iv	natpmp.c	/^	unsigned char iv[16];	\/* Initialization vector - server picks *\/$/;"	m	struct:pmp_auth_session	file:
+key	netfilter/tiny_nf_nat.h	/^	struct { __be16 key;  } gre;$/;"	m	struct:nf_conntrack_man_proto::__anon8
+known_service_types	minissdp.c	/^} const known_service_types[] =$/;"	v	file:
+lan_addr_s	miniupnpdtypes.h	/^struct lan_addr_s {$/;"	s
+lan_addrs	testgetroute.c	/^struct lan_addr_list lan_addrs;$/;"	v	typeref:struct:lan_addr_list
+lan_addrs	upnpglobalvars.c	/^struct lan_addr_list lan_addrs;$/;"	v	typeref:struct:lan_addr_list
+last_timestamp	natpmp.c	/^	unsigned int last_timestamp;$/;"	m	struct:pmp_auth_session	file:
+lease_file	upnpglobalvars.c	/^const char* lease_file = 0;$/;"	v
+lease_file_add	upnpredirect.c	/^lease_file_add(unsigned short eport,$/;"	f	file:
+lease_file_remove	upnpredirect.c	/^lease_file_remove(unsigned short eport, int proto)$/;"	f	file:
+link_ntoa	upnputils.c	56;"	d	file:
+list	bsd/getifstats.c	/^static struct nlist list[] = {$/;"	v	typeref:struct:nlist	file:
+list	miniupnpdtypes.h	/^	LIST_ENTRY(lan_addr_s) list;$/;"	m	struct:lan_addr_s
+list_eports_tcp	ipf/testipfrdr.c	/^list_eports_tcp(void)$/;"	f
+list_eports_tcp	pf/testobsdrdr.c	/^list_eports_tcp(void)$/;"	f
+list_port_mappings	ipfw/testipfwrdr.c	/^list_port_mappings(void)$/;"	f	file:
+list_redirect_rule	netfilter/iptcrdr.c	/^list_redirect_rule(const char * ifname)$/;"	f
+list_rules	pf/obsdrdr.c	/^list_rules(void)$/;"	f
+magicargname	upnpdescgen.c	/^static const char * magicargname[] = {$/;"	v	file:
+main	bsd/testgetifstats.c	/^main(int argc, char * * argv)$/;"	f
+main	bsd/testifacewatcher.c	/^int main(int argc, char * * argv)$/;"	f
+main	ipf/testipfrdr.c	/^main(int argc, char * * argv)$/;"	f
+main	ipfw/testipfwrdr.c	/^int main(int argc, char * * argv) {$/;"	f
+main	mac/testgetifstats.c	/^int main(int argc, char * * argv) {$/;"	f
+main	miniupnpd.c	/^main(int argc, char * * argv)$/;"	f
+main	miniupnpdctl.c	/^main(int argc, char * * argv)$/;"	f
+main	netfilter/testiptcrdr.c	/^main(int argc, char ** argv)$/;"	f
+main	netfilter/testiptpinhole.c	/^int main(int argc, char * * argv)$/;"	f
+main	pf/testobsdrdr.c	/^main(int arc, char * * argv)$/;"	f
+main	pf/testpfpinhole.c	/^int main(int argc, char * *argv)$/;"	f
+main	testgetifaddr.c	/^int main(int argc, char * * argv) {$/;"	f
+main	testgetifstats.c	/^main(int argc, char **argv)$/;"	f
+main	testgetroute.c	/^main(int argc, char ** argv)$/;"	f
+main	testupnpdescgen.c	/^main(int argc, char * * argv)$/;"	f
+main	testupnppermissions.c	/^int main(int argc, char * * argv)$/;"	f
+mapping_desc_time	ipfw/ipfwrdr.c	/^struct mapping_desc_time {$/;"	s	file:
+mappings_list	ipfw/ipfwrdr.c	/^static struct mapping_desc_time * mappings_list = NULL;$/;"	v	typeref:struct:mapping_desc_time	file:
+mask	miniupnpdtypes.h	/^	struct in_addr addr, mask;	\/* ip\/mask *\/$/;"	m	struct:lan_addr_s	typeref:struct:lan_addr_s::
+mask	upnppermissions.h	/^	struct in_addr address, mask;	\/* ip\/mask *\/$/;"	m	struct:upnpperm	typeref:struct:upnpperm::
+match_permission	upnppermissions.c	/^match_permission(const struct upnpperm * perm,$/;"	f	file:
+max	netfilter/tiny_nf_nat.h	/^	union nf_conntrack_man_proto min, max;$/;"	m	struct:nf_nat_range	typeref:union:nf_nat_range::
+max_ip	netfilter/tiny_nf_nat.h	/^	__be32 min_ip, max_ip;$/;"	m	struct:nf_nat_range
+methodImpl	upnpsoap.c	/^	void (*methodImpl)(struct upnphttp *, const char *);$/;"	m	struct:__anon9	file:
+methodName	upnpsoap.c	/^	const char * methodName;$/;"	m	struct:__anon9	file:
+min	netfilter/tiny_nf_nat.h	/^	union nf_conntrack_man_proto min, max;$/;"	m	struct:nf_nat_range	typeref:union:nf_nat_range::nf_conntrack_man_proto
+min_ip	netfilter/tiny_nf_nat.h	/^	__be32 min_ip, max_ip;$/;"	m	struct:nf_nat_range
+minissdpdsocketpath	upnpglobalvars.c	/^const char * minissdpdsocketpath = "\/var\/run\/minissdpd.sock";$/;"	v
+miniupnpd_forward_chain	upnpglobalvars.c	/^const char * miniupnpd_forward_chain = "MINIUPNPD";$/;"	v
+miniupnpd_nat_chain	upnpglobalvars.c	/^const char * miniupnpd_nat_chain = "MINIUPNPD";$/;"	v
+miniupnpd_v6_filter_chain	upnpglobalvars.c	/^const char * miniupnpd_v6_filter_chain = "MINIUPNPD";$/;"	v
+modelnumber	testupnpdescgen.c	/^char modelnumber[] = "1";$/;"	v
+modelnumber	upnpglobalvars.c	/^char modelnumber[MODELNUMBER_MAX_LEN] = "1";$/;"	v
+n_nfqix	upnpglobalvars.c	/^int n_nfqix = 0;$/;"	v
+name	options.c	/^	const char * name;$/;"	m	struct:__anon1	file:
+name	upnpdescgen.h	/^	const char * name;$/;"	m	struct:action
+name	upnpdescgen.h	/^	const char * name;$/;"	m	struct:stateVar
+name	upnpreplyparse.h	/^    char name[64];$/;"	m	struct:NameValue
+newSubscriber	upnpevents.c	/^newSubscriber(const char * eventurl, const char * callback, int callbacklen)$/;"	f	file:
+new_match	netfilter/iptpinhole.c	/^new_match(int proto, unsigned short sport, unsigned short dport)$/;"	f	file:
+next	ipf/ipfrdr.c	/^	struct rdr_desc * next;$/;"	m	struct:rdr_desc	typeref:struct:rdr_desc::rdr_desc	file:
+next	ipfw/ipfwrdr.c	/^	struct mapping_desc_time * next;$/;"	m	struct:mapping_desc_time	typeref:struct:mapping_desc_time::mapping_desc_time	file:
+next	netfilter/iptcrdr.c	/^	struct rdr_desc * next;$/;"	m	struct:rdr_desc	typeref:struct:rdr_desc::rdr_desc	file:
+next	pf/obsdrdr.c	/^	struct timestamp_entry * next;$/;"	m	struct:timestamp_entry	typeref:struct:timestamp_entry::timestamp_entry	file:
+next	upnpredirect.h	/^	struct rule_state * next;$/;"	m	struct:rule_state	typeref:struct:rule_state::rule_state
+next_uid	netfilter/iptpinhole.c	/^static int next_uid = 1;$/;"	v	file:
+next_uid	pf/pfpinhole.c	/^static int next_uid = 1;$/;"	v	file:
+nextruletoclean_timestamp	upnpglobalvars.c	/^unsigned int nextruletoclean_timestamp = 0;$/;"	v
+nf_conntrack_man_proto	netfilter/tiny_nf_nat.h	/^union nf_conntrack_man_proto {$/;"	u
+nf_nat_multi_range	netfilter/tiny_nf_nat.h	35;"	d
+nf_nat_multi_range_compat	netfilter/tiny_nf_nat.h	/^struct nf_nat_multi_range_compat {$/;"	s
+nf_nat_range	netfilter/tiny_nf_nat.h	/^struct nf_nat_range {$/;"	s
+nfqHandle	miniupnpd.c	/^static struct nfq_handle *nfqHandle;$/;"	v	typeref:struct:nfq_handle	file:
+nfqix	upnpglobalvars.c	/^unsigned nfqix[MAX_LAN_ADDR];$/;"	v
+nfqueue	upnpglobalvars.c	/^int nfqueue = -1;$/;"	v
+nfqueue_cb	miniupnpd.c	/^static int nfqueue_cb($/;"	f	file:
+notify	upnpevents.c	/^	struct upnp_event_notify * notify;$/;"	m	struct:subscriber	typeref:struct:subscriber::upnp_event_notify	file:
+notify_interval	miniupnpd.c	/^	int notify_interval;	\/* seconds between SSDP announces *\/$/;"	m	struct:runtime_vars	file:
+num_options	options.c	/^unsigned int num_options = 0;$/;"	v
+num_upnpperm	upnpglobalvars.c	/^unsigned int num_upnpperm = 0;$/;"	v
+obytes	getifstats.h	/^	unsigned long obytes;$/;"	m	struct:ifdata
+opackets	getifstats.h	/^	unsigned long opackets;$/;"	m	struct:ifdata
+option	options.h	/^struct option$/;"	s
+optionids	options.c	/^} optionids[] = {$/;"	v	typeref:struct:__anon1	file:
+packets	upnpredirect.h	/^	u_int64_t packets;$/;"	m	struct:rule_state
+parseatt	minixml.c	/^static int parseatt(struct xmlparser * p)$/;"	f	file:
+parseelt	minixml.c	/^static void parseelt(struct xmlparser * p)$/;"	f	file:
+parselanaddr	miniupnpd.c	/^parselanaddr(struct lan_addr_s * lan_addr, const char * str)$/;"	f	file:
+parsexml	minixml.c	/^void parsexml(struct xmlparser * parser)$/;"	f
+path	upnpevents.c	/^	const char * path;$/;"	m	struct:upnp_event_notify	file:
+pidfilename	upnpglobalvars.c	/^const char * pidfilename = "\/var\/run\/miniupnpd.pid";$/;"	v
+pinhole_t	netfilter/iptpinhole.c	/^struct pinhole_t {$/;"	s	file:
+pmp_auth_session	natpmp.c	/^struct pmp_auth_session {$/;"	s	file:
+port	miniupnpd.c	/^	int port;	\/* HTTP Port *\/$/;"	m	struct:runtime_vars	file:
+port	netfilter/tiny_nf_nat.h	/^	struct { __be16 port; } dccp;$/;"	m	struct:nf_conntrack_man_proto::__anon6
+port	netfilter/tiny_nf_nat.h	/^	struct { __be16 port; } sctp;$/;"	m	struct:nf_conntrack_man_proto::__anon7
+port	netfilter/tiny_nf_nat.h	/^	struct { __be16 port; } tcp;$/;"	m	struct:nf_conntrack_man_proto::__anon3
+port	netfilter/tiny_nf_nat.h	/^	struct { __be16 port; } udp;$/;"	m	struct:nf_conntrack_man_proto::__anon4
+portListing	upnpreplyparse.h	/^	char * portListing;$/;"	m	struct:NameValueParserData
+portListingLength	upnpreplyparse.h	/^	int portListingLength;$/;"	m	struct:NameValueParserData
+portstr	upnpevents.c	/^	char portstr[8];$/;"	m	struct:upnp_event_notify	file:
+presentationurl	testupnpdescgen.c	/^char presentationurl[] = "http:\/\/192.168.0.1:8080\/";$/;"	v
+presentationurl	upnpglobalvars.c	/^char presentationurl[PRESENTATIONURL_MAX_LEN];$/;"	v
+print_iface	netfilter/iptcrdr.c	/^print_iface(const char * iface, const unsigned char * mask, int invert)$/;"	f	file:
+print_match	netfilter/iptcrdr.c	/^print_match(const struct ipt_entry_match *match)$/;"	f	file:
+print_pinhole	pf/testpfpinhole.c	/^static int print_pinhole(int uid)$/;"	f	file:
+print_upnpperm	testupnppermissions.c	/^print_upnpperm(const struct upnpperm * p)$/;"	f
+printip	netfilter/iptcrdr.c	/^printip(uint32_t ip)$/;"	f	file:
+proto	ipf/ipfrdr.c	/^	int proto;$/;"	m	struct:rdr_desc	file:
+proto	ipfw/ipfwrdr.c	/^	short proto;$/;"	m	struct:mapping_desc_time	file:
+proto	netfilter/iptcrdr.c	/^	short proto;$/;"	m	struct:rdr_desc	file:
+proto	netfilter/iptpinhole.c	/^	unsigned char proto;$/;"	m	struct:pinhole_t	file:
+proto	upnpredirect.h	/^	unsigned char proto;$/;"	m	struct:rule_state
+proto_atoi	upnpredirect.c	/^proto_atoi(const char * protocol)$/;"	f	file:
+protocol	pf/obsdrdr.c	/^	short protocol;$/;"	m	struct:timestamp_entry	file:
+queue	pf/testpfpinhole.c	/^const char * queue = NULL;$/;"	v
+queue	upnpglobalvars.c	/^const char * queue = 0;$/;"	v
+quitting	miniupnpd.c	/^static volatile sig_atomic_t quitting = 0;$/;"	v	file:
+range	netfilter/tiny_nf_nat.h	/^	struct nf_nat_range range[1];$/;"	m	struct:nf_nat_multi_range_compat	typeref:struct:nf_nat_multi_range_compat::nf_nat_range
+rangesize	netfilter/tiny_nf_nat.h	/^	unsigned int rangesize;$/;"	m	struct:nf_nat_multi_range_compat
+rdr_desc	ipf/ipfrdr.c	/^struct rdr_desc {$/;"	s	file:
+rdr_desc	netfilter/iptcrdr.c	/^struct rdr_desc {$/;"	s	file:
+rdr_desc_list	ipf/ipfrdr.c	/^static struct rdr_desc * rdr_desc_list;$/;"	v	typeref:struct:rdr_desc	file:
+rdr_desc_list	netfilter/iptcrdr.c	/^static struct rdr_desc * rdr_desc_list = 0;$/;"	v	typeref:struct:rdr_desc	file:
+read_permission_line	upnppermissions.c	/^read_permission_line(struct upnpperm * perm,$/;"	f
+readoptionsfile	options.c	/^readoptionsfile(const char * fname)$/;"	f
+real_delete_redirect_rule	ipf/ipfrdr.c	/^real_delete_redirect_rule(const char * ifname, unsigned short eport, int proto)$/;"	f	file:
+relatedVar	upnpdescgen.h	/^	unsigned char relatedVar;	\/* index of the related variable *\/$/;"	m	struct:argument
+reload_from_lease_file	upnpredirect.c	/^int reload_from_lease_file()$/;"	f
+remove_timestamp_entry	pf/obsdrdr.c	/^remove_timestamp_entry(unsigned short eport, int proto)$/;"	f	file:
+remove_unused_rules	upnpredirect.c	/^remove_unused_rules(struct rule_state * list)$/;"	f
+renewSubscription	upnpevents.c	/^renewSubscription(const char * sid, int sidlen, int timeout)$/;"	f
+req_CallbackLen	upnphttp.h	/^	int req_CallbackLen;$/;"	m	struct:upnphttp
+req_CallbackOff	upnphttp.h	/^	int req_CallbackOff;	\/* For SUBSCRIBE *\/$/;"	m	struct:upnphttp
+req_NTLen	upnphttp.h	/^	int req_NTLen;$/;"	m	struct:upnphttp
+req_NTOff	upnphttp.h	/^	int req_NTOff;$/;"	m	struct:upnphttp
+req_SIDLen	upnphttp.h	/^	int req_SIDLen;$/;"	m	struct:upnphttp
+req_SIDOff	upnphttp.h	/^	int req_SIDOff;		\/* For UNSUBSCRIBE *\/$/;"	m	struct:upnphttp
+req_Timeout	upnphttp.h	/^	int req_Timeout;$/;"	m	struct:upnphttp
+req_buf	upnphttp.h	/^	char * req_buf;$/;"	m	struct:upnphttp
+req_buflen	upnphttp.h	/^	int req_buflen;$/;"	m	struct:upnphttp
+req_command	upnphttp.h	/^	enum httpCommands req_command;$/;"	m	struct:upnphttp	typeref:enum:upnphttp::httpCommands
+req_contentlen	upnphttp.h	/^	int req_contentlen;$/;"	m	struct:upnphttp
+req_contentoff	upnphttp.h	/^	int req_contentoff;     \/* header length *\/$/;"	m	struct:upnphttp
+req_soapActionLen	upnphttp.h	/^	int req_soapActionLen;$/;"	m	struct:upnphttp
+req_soapActionOff	upnphttp.h	/^	int req_soapActionOff;$/;"	m	struct:upnphttp
+res_SID	upnphttp.h	/^	const char * res_SID;$/;"	m	struct:upnphttp
+res_buf	upnphttp.h	/^	char * res_buf;$/;"	m	struct:upnphttp
+res_buf_alloclen	upnphttp.h	/^	int res_buf_alloclen;$/;"	m	struct:upnphttp
+res_buflen	upnphttp.h	/^	int res_buflen;$/;"	m	struct:upnphttp
+res_sent	upnphttp.h	/^	int res_sent;$/;"	m	struct:upnphttp
+respflags	upnphttp.h	/^	int respflags;				\/* see FLAG_* constants below *\/$/;"	m	struct:upnphttp
+rootDesc	upnpdescgen.c	/^static const struct XMLElt rootDesc[] =$/;"	v	typeref:struct:XMLElt	file:
+root_device	upnpdescgen.c	/^static const char root_device[] =$/;"	v	file:
+root_service	upnpdescgen.c	/^static const char root_service[] =$/;"	v	file:
+rtm	bsd/getroute.c	38;"	d	file:
+rule_state	upnpredirect.h	/^struct rule_state$/;"	s
+runtime_flags	ipf/testipfrdr.c	/^int runtime_flags = 0;$/;"	v
+runtime_flags	pf/testobsdrdr.c	/^int runtime_flags = 0;$/;"	v
+runtime_flags	pf/testpfpinhole.c	/^int runtime_flags = 0;$/;"	v
+runtime_flags	upnpglobalvars.c	/^int runtime_flags = 0;$/;"	v
+runtime_vars	miniupnpd.c	/^struct runtime_vars {$/;"	s	file:
+s	minissdp.c	/^	const char * s;$/;"	m	struct:__anon2	file:
+s	upnpevents.c	/^    int s;  \/* socket *\/$/;"	m	struct:upnp_event_notify	file:
+saddr	netfilter/iptpinhole.c	/^	struct in6_addr saddr;$/;"	m	struct:pinhole_t	typeref:struct:pinhole_t::in6_addr	file:
+scpd6FC	upnpdescgen.c	/^static const struct serviceDesc scpd6FC =$/;"	v	typeref:struct:serviceDesc	file:
+scpdDP	upnpdescgen.c	/^static const struct serviceDesc scpdDP =$/;"	v	typeref:struct:serviceDesc	file:
+scpdL3F	upnpdescgen.c	/^static const struct serviceDesc scpdL3F =$/;"	v	typeref:struct:serviceDesc	file:
+scpdWANCfg	upnpdescgen.c	/^static const struct serviceDesc scpdWANCfg =$/;"	v	typeref:struct:serviceDesc	file:
+scpdWANIPCn	upnpdescgen.c	/^static const struct serviceDesc scpdWANIPCn =$/;"	v	typeref:struct:serviceDesc	file:
+sctp	netfilter/tiny_nf_nat.h	/^	struct { __be16 port; } sctp;$/;"	m	union:nf_conntrack_man_proto	typeref:struct:nf_conntrack_man_proto::__anon7
+sendDummyDesc	upnphttp.c	/^sendDummyDesc(struct upnphttp * h)$/;"	f	file:
+sendXMLdesc	upnphttp.c	/^sendXMLdesc(struct upnphttp * h, char * (f)(int *))$/;"	f	file:
+sent	upnpevents.c	/^    int sent;$/;"	m	struct:upnp_event_notify	file:
+seq	upnpevents.c	/^	uint32_t seq;$/;"	m	struct:subscriber	file:
+serialnumber	testupnpdescgen.c	/^char serialnumber[] = "12345678";$/;"	v
+serialnumber	upnpglobalvars.c	/^char serialnumber[SERIALNUMBER_MAX_LEN] = "00000000";$/;"	v
+service	upnpevents.c	/^	enum subscriber_service_enum service;$/;"	m	struct:subscriber	typeref:enum:subscriber::subscriber_service_enum	file:
+serviceDesc	upnpdescgen.h	/^struct serviceDesc {$/;"	s
+serviceStateTable	upnpdescgen.h	/^	const struct stateVar * serviceStateTable;$/;"	m	struct:serviceDesc	typeref:struct:serviceDesc::stateVar
+set_non_blocking	upnputils.c	/^set_non_blocking(int fd)$/;"	f
+set_startup_time	miniupnpd.c	/^set_startup_time(int sysuptime)$/;"	f	file:
+should_send_public_address_change_notif	bsd/testifacewatcher.c	/^volatile sig_atomic_t should_send_public_address_change_notif = 0;$/;"	v
+should_send_public_address_change_notif	miniupnpd.c	/^volatile sig_atomic_t should_send_public_address_change_notif = 0;$/;"	v
+shutdown_iptpinhole	netfilter/iptpinhole.c	/^void shutdown_iptpinhole(void)$/;"	f
+shutdown_redirect	ipf/ipfrdr.c	/^void shutdown_redirect(void)$/;"	f
+shutdown_redirect	ipfw/ipfwrdr.c	/^void shutdown_redirect(void) {$/;"	f
+shutdown_redirect	netfilter/iptcrdr.c	/^void shutdown_redirect(void)$/;"	f
+shutdown_redirect	pf/obsdrdr.c	/^shutdown_redirect(void)$/;"	f
+sigterm	miniupnpd.c	/^sigterm(int sig)$/;"	f	file:
+sigusr1	miniupnpd.c	/^sigusr1(int sig)$/;"	f	file:
+snprintip	netfilter/iptcrdr.c	/^static int snprintip(char * dst, size_t size, uint32_t ip)$/;"	f	file:
+soapMethods	upnpsoap.c	/^soapMethods[] =$/;"	v	typeref:struct:__anon9	file:
+sockaddr_to_string	upnputils.c	/^sockaddr_to_string(const struct sockaddr * addr, char * str, size_t size)$/;"	f
+socket	miniupnpd.c	/^	int socket;$/;"	m	struct:ctlelem	file:
+socket	upnphttp.h	/^	int socket;$/;"	m	struct:upnphttp
+sport	netfilter/iptpinhole.c	/^	unsigned short sport;$/;"	m	struct:pinhole_t	file:
+ssdp	miniupnpd.c	/^static struct sockaddr_in ssdp;$/;"	v	typeref:struct:sockaddr_in	file:
+starteltfunc	minixml.h	/^	void (*starteltfunc) (void *, const char *, int);$/;"	m	struct:xmlparser
+startup_time	upnpglobalvars.c	/^time_t startup_time = 0;$/;"	v
+state	upnpevents.c	/^	       EError } state;$/;"	m	struct:upnp_event_notify	typeref:enum:upnp_event_notify::__anon10	file:
+state	upnphttp.h	/^	enum httpStates state;$/;"	m	struct:upnphttp	typeref:enum:upnphttp::httpStates
+stateVar	upnpdescgen.h	/^struct stateVar {$/;"	s
+str	ipf/ipfrdr.c	/^	char str[];$/;"	m	struct:rdr_desc	file:
+str	miniupnpdtypes.h	/^	char str[16];	\/* example: 192.168.0.1 *\/$/;"	m	struct:lan_addr_s
+str	netfilter/iptcrdr.c	/^	char str[];$/;"	m	struct:rdr_desc	file:
+str1	testupnpdescgen.c	/^const char * str1 = "Prefix123String";$/;"	v
+str2	testupnpdescgen.c	/^const char * str2 = "123String";$/;"	v
+strcat_char	upnpdescgen.c	/^strcat_char(char * str, int * len, int * tmplen, char c)$/;"	f	file:
+strcat_int	upnpdescgen.c	/^strcat_int(char * str, int * len, int * tmplen, int i)$/;"	f	file:
+strcat_str	upnpdescgen.c	/^strcat_str(char * str, int * len, int * tmplen, const char * s2)$/;"	f	file:
+string_repo	options.c	/^static char * string_repo = NULL;$/;"	v	file:
+stupid_test	testupnpdescgen.c	/^void stupid_test(void)$/;"	f
+sub	upnpevents.c	/^    struct subscriber * sub;$/;"	m	struct:upnp_event_notify	typeref:struct:upnp_event_notify::subscriber	file:
+subscriber	upnpevents.c	/^struct subscriber {$/;"	s	file:
+subscriber_service_enum	upnpevents.h	/^enum subscriber_service_enum {$/;"	g
+tag	pf/testobsdrdr.c	/^const char * tag = 0;$/;"	v
+tag	pf/testpfpinhole.c	/^const char * tag = NULL;$/;"	v
+tag	upnpglobalvars.c	/^const char * tag = 0;$/;"	v
+tcp	netfilter/tiny_nf_nat.h	/^	struct { __be16 port; } tcp;$/;"	m	union:nf_conntrack_man_proto	typeref:struct:nf_conntrack_man_proto::__anon3
+test_index	pf/testobsdrdr.c	/^test_index(void)$/;"	f
+timeout	upnpevents.c	/^	time_t timeout;$/;"	m	struct:subscriber	file:
+timestamp	ipf/ipfrdr.c	/^	unsigned int timestamp;$/;"	m	struct:rdr_desc	file:
+timestamp	ipfw/ipfwrdr.c	/^	unsigned int timestamp;$/;"	m	struct:mapping_desc_time	file:
+timestamp	netfilter/iptcrdr.c	/^	unsigned int timestamp;$/;"	m	struct:rdr_desc	file:
+timestamp	netfilter/iptpinhole.c	/^	unsigned int timestamp;$/;"	m	struct:pinhole_t	file:
+timestamp	pf/obsdrdr.c	/^	unsigned int timestamp;$/;"	m	struct:timestamp_entry	file:
+timestamp_entry	pf/obsdrdr.c	/^struct timestamp_entry {$/;"	s	file:
+timestamp_list	pf/obsdrdr.c	/^static struct timestamp_entry * timestamp_list = NULL;$/;"	v	typeref:struct:timestamp_entry	file:
+to_remove	upnpredirect.h	/^	unsigned char to_remove;$/;"	m	struct:rule_state
+tosend	upnpevents.c	/^	int tosend;$/;"	m	struct:upnp_event_notify	file:
+type	upnppermissions.h	/^	enum {UPNPPERM_ALLOW=1, UPNPPERM_DENY=2 } type;$/;"	m	struct:upnpperm	typeref:enum:upnpperm::__anon11
+u_32_t	ipf/ipfrdr.c	/^typedef	u_int32_t	u_32_t;$/;"	t	file:
+u_32_t	ipf/ipfrdr.c	/^typedef uint32_t	u_32_t;$/;"	t	file:
+u_32_t	ipf/ipfrdr.c	/^typedef unsigned int	u_32_t;$/;"	t	file:
+udp	netfilter/tiny_nf_nat.h	/^	struct { __be16 port; } udp;$/;"	m	union:nf_conntrack_man_proto	typeref:struct:nf_conntrack_man_proto::__anon4
+uid	netfilter/iptpinhole.c	/^	unsigned short uid;$/;"	m	struct:pinhole_t	file:
+update_pinhole	netfilter/iptpinhole.c	/^update_pinhole(unsigned short uid, unsigned int timestamp)$/;"	f
+update_pinhole	pf/pfpinhole.c	/^int update_pinhole(unsigned short uid, unsigned int timestamp)$/;"	f
+upnp_add_inboundpinhole	upnppinhole.c	/^upnp_add_inboundpinhole(const char * raddr,$/;"	f
+upnp_bootid	upnpglobalvars.c	/^unsigned int upnp_bootid = 1;$/;"	v
+upnp_clean_expired_pinholes	upnppinhole.c	/^upnp_clean_expired_pinholes(unsigned int * next_timestamp)$/;"	f
+upnp_configid	upnpglobalvars.c	/^unsigned int upnp_configid = 1337;$/;"	v
+upnp_delete_inboundpinhole	upnppinhole.c	/^upnp_delete_inboundpinhole(unsigned short uid)$/;"	f
+upnp_delete_redirection	upnpredirect.c	/^upnp_delete_redirection(unsigned short eport, const char * protocol)$/;"	f
+upnp_event_create_notify	upnpevents.c	/^upnp_event_create_notify(struct subscriber * sub)$/;"	f	file:
+upnp_event_notify	upnpevents.c	/^struct upnp_event_notify {$/;"	s	file:
+upnp_event_notify_connect	upnpevents.c	/^upnp_event_notify_connect(struct upnp_event_notify * obj)$/;"	f	file:
+upnp_event_prepare	upnpevents.c	/^static void upnp_event_prepare(struct upnp_event_notify * obj)$/;"	f	file:
+upnp_event_process_notify	upnpevents.c	/^upnp_event_process_notify(struct upnp_event_notify * obj)$/;"	f	file:
+upnp_event_recv	upnpevents.c	/^static void upnp_event_recv(struct upnp_event_notify * obj)$/;"	f	file:
+upnp_event_send	upnpevents.c	/^static void upnp_event_send(struct upnp_event_notify * obj)$/;"	f	file:
+upnp_event_var_change_notify	upnpevents.c	/^upnp_event_var_change_notify(enum subscriber_service_enum service)$/;"	f
+upnp_get_pinhole_info	upnppinhole.c	/^upnp_get_pinhole_info(unsigned short uid,$/;"	f
+upnp_get_portmapping_number_of_entries	testupnpdescgen.c	/^int upnp_get_portmapping_number_of_entries(void)$/;"	f
+upnp_get_portmapping_number_of_entries	upnpredirect.c	/^upnp_get_portmapping_number_of_entries()$/;"	f
+upnp_get_portmappings_in_range	upnpredirect.c	/^upnp_get_portmappings_in_range(unsigned short startport,$/;"	f
+upnp_get_redirection_infos	upnpredirect.c	/^upnp_get_redirection_infos(unsigned short eport, const char * protocol,$/;"	f
+upnp_get_redirection_infos_by_index	upnpredirect.c	/^upnp_get_redirection_infos_by_index(int index,$/;"	f
+upnp_redirect	upnpredirect.c	/^upnp_redirect(const char * rhost, unsigned short eport,$/;"	f
+upnp_redirect_internal	upnpredirect.c	/^upnp_redirect_internal(const char * rhost, unsigned short eport,$/;"	f
+upnp_update_inboundpinhole	upnppinhole.c	/^upnp_update_inboundpinhole(unsigned short uid, unsigned int leasetime)$/;"	f
+upnpallowedranges	upnpdescgen.c	/^static const int upnpallowedranges[] = {$/;"	v	file:
+upnpallowedvalues	upnpdescgen.c	/^static const char * const upnpallowedvalues[] =$/;"	v	file:
+upnpconfigoptions	options.h	/^enum upnpconfigoptions {$/;"	g
+upnpdefaultvalues	upnpdescgen.c	/^static const char * const upnpdefaultvalues[] =$/;"	v	file:
+upnpevents_addSubscriber	upnpevents.c	/^upnpevents_addSubscriber(const char * eventurl,$/;"	f
+upnpevents_processfds	upnpevents.c	/^void upnpevents_processfds(fd_set *readset, fd_set *writeset)$/;"	f
+upnpevents_removeSubscriber	upnpevents.c	/^upnpevents_removeSubscriber(const char * sid, int sidlen)$/;"	f
+upnpevents_selectfds	upnpevents.c	/^void upnpevents_selectfds(fd_set *readset, fd_set *writeset, int * max_fd)$/;"	f
+upnphttp	upnphttp.h	/^struct upnphttp {$/;"	s
+upnpperm	upnppermissions.h	/^struct upnpperm {$/;"	s
+upnppermlist	upnpglobalvars.c	/^struct upnpperm * upnppermlist = 0;$/;"	v	typeref:struct:upnpperm
+upnptypes	upnpdescgen.c	/^static const char * const upnptypes[] =$/;"	v	file:
+upstream_bitrate	upnpglobalvars.c	/^unsigned long upstream_bitrate = 0;$/;"	v
+use_ext_ip_addr	testupnpdescgen.c	/^char * use_ext_ip_addr = NULL;$/;"	v
+use_ext_ip_addr	upnpglobalvars.c	/^const char * use_ext_ip_addr = 0;$/;"	v
+uuid	upnpevents.c	/^	char uuid[42];$/;"	m	struct:subscriber	file:
+uuidvalue	testupnpdescgen.c	/^char uuidvalue[] = "uuid:12345678-0000-0000-0000-00000000abcd";$/;"	v
+uuidvalue	upnpglobalvars.c	/^char uuidvalue[] = "uuid:00000000-0000-0000-0000-000000000000";$/;"	v
+value	options.h	/^	const char * value;$/;"	m	struct:option
+value	upnpreplyparse.h	/^    char value[64];$/;"	m	struct:NameValue
+version	minissdp.c	/^	const int version;$/;"	m	struct:__anon2	file:
+write_command_line	miniupnpd.c	/^write_command_line(int fd, int argc, char * * argv)$/;"	f	file:
+write_ctlsockets_list	miniupnpd.c	/^write_ctlsockets_list(int fd, struct ctlelem * e)$/;"	f	file:
+write_events_details	upnpevents.c	/^void write_events_details(int s) {$/;"	f
+write_option_list	miniupnpd.c	/^write_option_list(int fd)$/;"	f	file:
+write_permlist	upnppermissions.c	/^write_permlist(int fd, const struct upnpperm * permary,$/;"	f
+write_ruleset_details	upnpredirect.c	/^write_ruleset_details(int s)$/;"	f
+write_upnphttp_details	miniupnpd.c	/^write_upnphttp_details(int fd, struct upnphttp * e)$/;"	f	file:
+writepidfile	daemonize.c	/^writepidfile(const char * fname, int pid)$/;"	f
+xml	minixml.h	/^	const char *xml;	\/* pointer to current character *\/$/;"	m	struct:xmlparser
+xml_pretty_print	testupnpdescgen.c	/^xml_pretty_print(const char * s, int len, FILE * f)$/;"	f
+xmlend	minixml.h	/^	const char *xmlend;$/;"	m	struct:xmlparser
+xmlparser	minixml.h	/^struct xmlparser {$/;"	s
+xmlsize	minixml.h	/^	int xmlsize;$/;"	m	struct:xmlparser
+xmlstart	minixml.h	/^	const char *xmlstart;$/;"	m	struct:xmlparser
+xmlver	upnpdescgen.c	/^static const char xmlver[] =$/;"	v	file:
